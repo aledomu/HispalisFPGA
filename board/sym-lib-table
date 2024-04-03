@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name TinyFPGA-EX-rescue)(type Legacy)(uri ${KIPRJMOD}/TinyFPGA-EX-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "TinyFPGA-EX-rescue")(type "Legacy")(uri "${KIPRJMOD}/HispalisFPGA-rescue.lib")(options "")(descr ""))
+  (lib (name "HispalisFPGA-rescue")(type "KiCad")(uri "${KIPRJMOD}/HispalisFPGA-rescue.kicad_sym")(options "")(descr ""))
 )
