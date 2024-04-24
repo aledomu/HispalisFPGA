@@ -11770,6 +11770,126 @@
 				)
 			)
 		)
+		(symbol "power:+1V2"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+1V2"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V2\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+1V2_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V2_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+2V5"
 			(power)
 			(pin_numbers hide)
@@ -12864,16 +12984,16 @@
 		(uuid "aa2b05f9-34f6-4481-9409-ce8df916b7fd")
 	)
 	(junction
-		(at 57.15 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab185574-856d-4d45-9531-87d6cf238554")
-	)
-	(junction
 		(at 335.28 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ade9e20b-e72b-4a58-b2dc-aa8028b08973")
+	)
+	(junction
+		(at 80.01 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aecfa83c-ef7e-4c23-9868-fc501cde02ee")
 	)
 	(junction
 		(at 80.01 67.31)
@@ -12960,12 +13080,6 @@
 		(uuid "c910a6ec-cb77-44a7-a65f-981e3dfde1c1")
 	)
 	(junction
-		(at 64.77 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9a961ba-adf2-4537-8f28-49955e0a02ba")
-	)
-	(junction
 		(at 495.3 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12994,12 +13108,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7a879c7-7303-4682-9971-1adc80f49199")
-	)
-	(junction
-		(at 57.15 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da8ea5a9-ac75-4856-b531-c6f772fac319")
 	)
 	(junction
 		(at 412.75 104.14)
@@ -13128,6 +13236,16 @@
 			(type default)
 		)
 		(uuid "005608ee-e52e-4a83-bdaf-f5228a01f427")
+	)
+	(wire
+		(pts
+			(xy 83.82 62.23) (xy 80.01 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007ab30e-6a21-4e82-9761-8bcda54ec835")
 	)
 	(wire
 		(pts
@@ -13271,16 +13389,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 87.63) (xy 64.77 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ba659d1-eec1-4c72-a908-382b490ca144")
-	)
-	(wire
-		(pts
 			(xy 468.63 57.15) (xy 480.06 57.15)
 		)
 		(stroke
@@ -13408,16 +13516,6 @@
 			(type default)
 		)
 		(uuid "0ebf9acc-19ca-4e41-8a09-64472810f627")
-	)
-	(wire
-		(pts
-			(xy 57.15 57.15) (xy 64.77 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f64f576-5250-4a26-b4bc-2ad861ec7b30")
 	)
 	(wire
 		(pts
@@ -13551,6 +13649,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 62.23) (xy 80.01 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16df8637-71d3-4afe-bb75-dcd3f342f6ca")
+	)
+	(wire
+		(pts
 			(xy 214.63 274.32) (xy 222.25 274.32)
 		)
 		(stroke
@@ -13608,16 +13716,6 @@
 			(type default)
 		)
 		(uuid "181da74d-3416-45a8-81aa-2281b8378da4")
-	)
-	(wire
-		(pts
-			(xy 57.15 69.85) (xy 57.15 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "188927ae-12d9-4fe3-a1b6-bfea802926db")
 	)
 	(wire
 		(pts
@@ -13728,16 +13826,6 @@
 			(type default)
 		)
 		(uuid "1df4404b-524b-49f6-b94c-f426ca91a11b")
-	)
-	(wire
-		(pts
-			(xy 57.15 62.23) (xy 83.82 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dfe3009-c5c2-4090-8250-f0f1ed7123b5")
 	)
 	(wire
 		(pts
@@ -14101,7 +14189,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 207.01) (xy 176.53 215.9)
+			(xy 176.53 212.09) (xy 176.53 215.9)
 		)
 		(stroke
 			(width 0)
@@ -14661,7 +14749,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 57.15) (xy 57.15 57.15)
+			(xy 52.07 57.15) (xy 64.77 57.15)
 		)
 		(stroke
 			(width 0)
@@ -16501,7 +16589,7 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 163.83) (xy 424.18 171.45)
+			(xy 424.18 166.37) (xy 424.18 171.45)
 		)
 		(stroke
 			(width 0)
@@ -16698,16 +16786,6 @@
 			(type default)
 		)
 		(uuid "a7c186ea-d315-4a54-97ee-b680939fd879")
-	)
-	(wire
-		(pts
-			(xy 420.37 163.83) (xy 424.18 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a81bbcbe-edc0-4103-9e82-eaafc3a13d20")
 	)
 	(wire
 		(pts
@@ -17041,16 +17119,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 207.01) (xy 180.34 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd9532a3-366d-4e50-8d9d-b3e7fabd5aa2")
-	)
-	(wire
-		(pts
 			(xy 400.05 109.22) (xy 412.75 109.22)
 		)
 		(stroke
@@ -17248,16 +17316,6 @@
 			(type dash)
 		)
 		(uuid "ca76edc2-50fb-477c-94f9-efee338076f5")
-	)
-	(wire
-		(pts
-			(xy 57.15 62.23) (xy 57.15 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc14a574-78ff-4cfe-8192-69e4a5469784")
 	)
 	(polyline
 		(pts
@@ -18553,7 +18611,7 @@
 		)
 		(uuid "f77ee531-dd6e-4feb-83aa-332db6d15f88")
 	)
-	(text "1.2 Volt Switching Regulator"
+	(text "1.1 Volt Switching Regulator"
 		(exclude_from_sim no)
 		(at 82.55 46.99 0)
 		(effects
@@ -18563,17 +18621,6 @@
 			(justify left bottom)
 		)
 		(uuid "f84197df-9f72-4cb8-9c5f-29518a322681")
-	)
-	(text "Place R3 for 1.2v operation\nPlace R8 for 1.1v operation"
-		(exclude_from_sim no)
-		(at 19.05 64.77 0)
-		(effects
-			(font
-				(size 1.4986 1.4986)
-			)
-			(justify left bottom)
-		)
-		(uuid "fce0a9d2-e369-436f-861f-00ac91c1fce4")
 	)
 	(global_label "PMOD1_2"
 		(shape bidirectional)
@@ -19039,26 +19086,6 @@
 			)
 		)
 	)
-	(global_label "+1V2A"
-		(shape input)
-		(at 180.34 207.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1eb9af79-b311-4fa4-8b98-72c52a6a62b6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.34 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VCCIO8"
 		(shape input)
 		(at 76.2 232.41 180)
@@ -19115,6 +19142,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STATUS_LED"
+		(shape input)
+		(at 544.83 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20cfac7b-e487-44fc-b7c9-a4a8a2350f32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 531.311 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -20821,26 +20870,6 @@
 			)
 		)
 	)
-	(global_label "+1V2A"
-		(shape input)
-		(at 420.37 163.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "810e64bd-43ad-4054-ba19-038e1a8c4368")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 420.37 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PMOD2_1"
 		(shape bidirectional)
 		(at 728.98 72.39 180)
@@ -22517,8 +22546,8 @@
 			)
 		)
 	)
-	(global_label "PIN48"
-		(shape input)
+	(global_label "STATUS_LED"
+		(shape output)
 		(at 276.86 143.51 0)
 		(effects
 			(font
@@ -25011,7 +25040,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FAN53555"
+		(property "Value" "FAN53555UC04X"
 			(at 88.9 53.34 0)
 			(effects
 				(font
@@ -38553,7 +38582,7 @@
 			)
 		)
 		(property "Value" "+2V5"
-			(at 436.88 162.814 0)
+			(at 436.626 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39771,144 +39800,6 @@
 			(project "HispalisFPGA"
 				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
 					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 57.15 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005baa0618")
-		(property "Reference" "R3"
-			(at 57.912 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 57.912 60.706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Footprints:R_0402_NoSilk"
-			(at 57.15 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a8bddab-a387-4263-bd18-39f2d977fb73")
-		)
-		(pin "2"
-			(uuid "bece0c43-eaaf-4d5b-ae35-839dc6a6242d")
-		)
-		(instances
-			(project "HispalisFPGA"
-				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 57.15 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005baa0caf")
-		(property "Reference" "R8"
-			(at 57.912 66.802 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 57.912 68.326 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Footprints:R_0402_NoSilk"
-			(at 57.15 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b8db994b-f532-4fec-b513-bc162feaeba8")
-		)
-		(pin "1"
-			(uuid "4064209b-492c-4bc1-8dad-de8ffcf6ba5f")
-		)
-		(instances
-			(project "HispalisFPGA"
-				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -41464,10 +41355,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c004467a-568f-47b2-b737-60b72880810a")
+			(uuid "c004467a-568f-47b2-b737-60b72880810b")
 		)
 		(pin "2"
-			(uuid "0722223a-b716-492e-83b7-0895d65eaefb")
+			(uuid "0722223a-b716-492e-83b7-0895d65eaefc")
 		)
 		(instances
 			(project "HispalisFPGA"
@@ -41936,10 +41827,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c004467a-568f-47b2-b737-60b72880810a")
+			(uuid "c004467a-568f-47b2-b737-60b72880810c")
 		)
 		(pin "2"
-			(uuid "0722223a-b716-492e-83b7-0895d65eaefb")
+			(uuid "0722223a-b716-492e-83b7-0895d65eaefd")
 		)
 		(instances
 			(project "HispalisFPGA"
@@ -42385,6 +42276,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V2")
+		(at 176.53 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bbbc6dc-9b8f-40d5-b83d-8f9ecb5b26d6")
+		(property "Reference" "#PWR066"
+			(at 176.53 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V2"
+			(at 176.53 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V2\""
+			(at 176.53 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c51a642-005d-4480-b60b-7dafa22ea603")
+		)
+		(instances
+			(project "HispalisFPGA"
+				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 214.63 248.92 0)
 		(unit 1)
@@ -42515,6 +42472,72 @@
 			(project "HispalisFPGA"
 				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V2")
+		(at 424.18 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43636634-1774-4c75-8df9-5a8903aa272b")
+		(property "Reference" "#PWR065"
+			(at 424.18 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V2"
+			(at 424.18 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 424.18 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 424.18 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V2\""
+			(at 424.18 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3df4d6dd-abb3-44ca-8920-88870b3196f9")
+		)
+		(instances
+			(project "HispalisFPGA"
+				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -43052,10 +43075,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c004467a-568f-47b2-b737-60b72880810a")
+			(uuid "c004467a-568f-47b2-b737-60b72880810d")
 		)
 		(pin "2"
-			(uuid "0722223a-b716-492e-83b7-0895d65eaefb")
+			(uuid "0722223a-b716-492e-83b7-0895d65eaefe")
 		)
 		(instances
 			(project "HispalisFPGA"
@@ -43298,10 +43321,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c004467a-568f-47b2-b737-60b72880810a")
+			(uuid "c004467a-568f-47b2-b737-60b72880810e")
 		)
 		(pin "2"
-			(uuid "0722223a-b716-492e-83b7-0895d65eaefb")
+			(uuid "0722223a-b716-492e-83b7-0895d65eaeff")
 		)
 		(instances
 			(project "HispalisFPGA"
@@ -44212,10 +44235,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c004467a-568f-47b2-b737-60b72880810a")
+			(uuid "c004467a-568f-47b2-b737-60b72880810f")
 		)
 		(pin "2"
-			(uuid "0722223a-b716-492e-83b7-0895d65eaefb")
+			(uuid "0722223a-b716-492e-83b7-0895d65eaf00")
 		)
 		(instances
 			(project "HispalisFPGA"
@@ -44618,10 +44641,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c004467a-568f-47b2-b737-60b72880810a")
+			(uuid "c004467a-568f-47b2-b737-60b728808110")
 		)
 		(pin "2"
-			(uuid "0722223a-b716-492e-83b7-0895d65eaefb")
+			(uuid "0722223a-b716-492e-83b7-0895d65eaf01")
 		)
 		(instances
 			(project "HispalisFPGA"
@@ -44686,10 +44709,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c004467a-568f-47b2-b737-60b72880810a")
+			(uuid "c004467a-568f-47b2-b737-60b728808111")
 		)
 		(pin "2"
-			(uuid "0722223a-b716-492e-83b7-0895d65eaefb")
+			(uuid "0722223a-b716-492e-83b7-0895d65eaf02")
 		)
 		(instances
 			(project "HispalisFPGA"
