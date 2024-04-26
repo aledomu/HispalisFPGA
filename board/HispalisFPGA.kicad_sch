@@ -5,6 +5,168 @@
 	(uuid "864346d0-d3ef-428e-a44f-9476f195db98")
 	(paper "A1")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016) hide)
@@ -41426,7 +41588,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "adce89cf-adbc-4dde-b0bd-c12566774388")
+			(uuid "adce89cf-adbc-4dde-b0bd-c12566774389")
 		)
 		(instances
 			(project "HispalisFPGA"
@@ -41575,6 +41737,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 119.38 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2208376a-537a-4745-b8e1-7b9d1a79c26f")
+		(property "Reference" "#PWR068"
+			(at 119.38 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b86cc39b-87e4-4022-a2cb-4590186268ba")
+		)
+		(instances
+			(project "HispalisFPGA"
+				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 623.57 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -41696,7 +41924,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "adce89cf-adbc-4dde-b0bd-c12566774388")
+			(uuid "adce89cf-adbc-4dde-b0bd-c1256677438a")
 		)
 		(instances
 			(project "HispalisFPGA"
@@ -43988,6 +44216,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 124.46 269.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7feb7dea-a4c4-4c0e-a980-7c6f16b33530")
+		(property "Reference" "J2"
+			(at 125.73 269.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 125.73 271.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 124.46 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 124.46 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfef4cef-651a-4206-a89a-03b1c78a2486")
+		)
+		(pin "2"
+			(uuid "1e7ca878-528b-421b-b10e-a3f2b484f9db")
+		)
+		(instances
+			(project "HispalisFPGA"
+				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 214.63 265.43 0)
 		(unit 1)
@@ -44321,6 +44619,72 @@
 			(project "HispalisFPGA"
 				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 119.38 269.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89b1adbe-5270-435d-a447-97ef3360eef5")
+		(property "Reference" "#PWR067"
+			(at 119.38 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 119.38 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 119.38 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1fae049-597a-4531-b5b4-a0e008196da0")
+		)
+		(instances
+			(project "HispalisFPGA"
+				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -45125,7 +45489,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "adce89cf-adbc-4dde-b0bd-c12566774388")
+			(uuid "adce89cf-adbc-4dde-b0bd-c1256677438b")
 		)
 		(instances
 			(project "HispalisFPGA"
@@ -45259,7 +45623,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "adce89cf-adbc-4dde-b0bd-c12566774388")
+			(uuid "adce89cf-adbc-4dde-b0bd-c1256677438c")
 		)
 		(instances
 			(project "HispalisFPGA"
@@ -45972,7 +46336,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "adce89cf-adbc-4dde-b0bd-c12566774388")
+			(uuid "adce89cf-adbc-4dde-b0bd-c1256677438d")
 		)
 		(instances
 			(project "HispalisFPGA"
@@ -46039,7 +46403,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "adce89cf-adbc-4dde-b0bd-c12566774388")
+			(uuid "adce89cf-adbc-4dde-b0bd-c1256677438e")
 		)
 		(instances
 			(project "HispalisFPGA"
