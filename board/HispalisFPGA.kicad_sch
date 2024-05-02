@@ -167,6 +167,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_02x03_Counter_Clockwise"
 			(pin_names
 				(offset 1.016) hide)
@@ -10123,99 +10225,6 @@
 						(effects
 							(font
 								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "HispalisFPGA-rescue:Test_Point-Connector"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Connector:Test_Point"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Test_Point-Connector_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Test_Point-Connector_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -23243,7 +23252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:R_0402_NoSilk"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 325.12 156.21 0)
 			(effects
 				(font
@@ -23312,7 +23321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:R_0402_NoSilk"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 252.73 62.23 0)
 			(effects
 				(font
@@ -23455,7 +23464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 46.99 173.99 0)
 			(effects
 				(font
@@ -23524,7 +23533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 54.61 173.99 0)
 			(effects
 				(font
@@ -23593,7 +23602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 90.17 165.1 0)
 			(effects
 				(font
@@ -23662,7 +23671,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 82.55 165.1 0)
 			(effects
 				(font
@@ -23731,7 +23740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 76.2 165.1 0)
 			(effects
 				(font
@@ -23800,7 +23809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 68.58 165.1 0)
 			(effects
 				(font
@@ -23869,7 +23878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 104.14 165.1 0)
 			(effects
 				(font
@@ -23938,7 +23947,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 96.52 165.1 0)
 			(effects
 				(font
@@ -24007,7 +24016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 55.88 267.97 0)
 			(effects
 				(font
@@ -24076,7 +24085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 48.26 267.97 0)
 			(effects
 				(font
@@ -24210,7 +24219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 63.5 238.76 0)
 			(effects
 				(font
@@ -24279,7 +24288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 55.88 238.76 0)
 			(effects
 				(font
@@ -24413,7 +24422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:Thin-DFN4"
+		(property "Footprint" "Package_DFN_QFN:UDFN-4-1EP_1x1mm_P0.65mm_EP0.48x0.48mm"
 			(at 143.51 119.38 0)
 			(effects
 				(font
@@ -24488,7 +24497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 140.97 127 0)
 			(effects
 				(font
@@ -24557,7 +24566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 176.53 127 0)
 			(effects
 				(font
@@ -24756,7 +24765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductors_SMD:L_Wuerth_MAPI-2010"
+		(property "Footprint" "Inductor_SMD:L_2010_5025Metric"
 			(at 113.03 119.38 0)
 			(effects
 				(font
@@ -24948,7 +24957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitors_SMD:C_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 119.38 125.73 0)
 			(effects
 				(font
@@ -25163,7 +25172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 64.77 128.27 0)
 			(effects
 				(font
@@ -25427,7 +25436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 71.12 72.39 0)
 			(effects
 				(font
@@ -25496,7 +25505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitors_SMD:C_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 64.77 72.39 0)
 			(effects
 				(font
@@ -25630,7 +25639,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductors_SMD:L_Vishay_IHLP-1616"
+		(property "Footprint" "Inductor_SMD:L_2512_6332Metric"
 			(at 128.27 62.23 0)
 			(effects
 				(font
@@ -25699,7 +25708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitors_SMD:C_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 134.62 69.85 0)
 			(effects
 				(font
@@ -26157,7 +26166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:PTS_810_SMT_Switch"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 218.44 153.67 0)
 			(effects
 				(font
@@ -26356,7 +26365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:R_0402_NoSilk"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 227.33 151.13 0)
 			(effects
 				(font
@@ -26577,7 +26586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:R_0402_NoSilk"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 245.11 90.17 0)
 			(effects
 				(font
@@ -26906,7 +26915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 30.48 356.87 0)
 			(effects
 				(font
@@ -26975,7 +26984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 342.9 80.01 0)
 			(effects
 				(font
@@ -27044,7 +27053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 90.17 238.76 0)
 			(effects
 				(font
@@ -27113,7 +27122,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 82.55 238.76 0)
 			(effects
 				(font
@@ -27312,7 +27321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 36.83 238.76 0)
 			(effects
 				(font
@@ -27381,7 +27390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 29.21 238.76 0)
 			(effects
 				(font
@@ -27645,7 +27654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 628.65 295.91 0)
 			(effects
 				(font
@@ -27714,7 +27723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 614.68 295.91 0)
 			(effects
 				(font
@@ -27903,7 +27912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:R_0402_NoSilk"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 480.06 49.53 0)
 			(effects
 				(font
@@ -27970,7 +27979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEDs:LED_0603"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 264.16 152.4 0)
 			(effects
 				(font
@@ -28039,7 +28048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:R_0402_NoSilk"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.16 162.56 0)
 			(effects
 				(font
@@ -28238,7 +28247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:R_0402_NoSilk"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 273.05 162.56 0)
 			(effects
 				(font
@@ -28305,7 +28314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEDs:LED_0603"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 273.05 152.4 0)
 			(effects
 				(font
@@ -28348,7 +28357,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:Test_Point-Connector")
+		(lib_id "Connector:TestPoint")
 		(at 227.33 163.83 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28373,8 +28382,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:small-testpoint"
-			(at 227.33 163.83 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 222.25 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28382,8 +28391,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 227.33 163.83 0)
+		(property "Datasheet" "~"
+			(at 222.25 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28391,7 +28400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 227.33 163.83 0)
 			(effects
 				(font
@@ -28478,7 +28487,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:Test_Point-Connector")
+		(lib_id "Connector:TestPoint")
 		(at 134.62 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28503,8 +28512,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:small-testpoint"
-			(at 134.62 59.69 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 134.62 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28512,8 +28521,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 134.62 59.69 0)
+		(property "Datasheet" "~"
+			(at 134.62 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28521,7 +28530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 134.62 59.69 0)
 			(effects
 				(font
@@ -28543,7 +28552,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:Test_Point-Connector")
+		(lib_id "Connector:TestPoint")
 		(at 176.53 121.92 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28568,8 +28577,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:small-testpoint"
-			(at 176.53 121.92 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 176.53 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28577,8 +28586,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 176.53 121.92 0)
+		(property "Datasheet" "~"
+			(at 176.53 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28586,7 +28595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 176.53 121.92 0)
 			(effects
 				(font
@@ -28634,7 +28643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:csfBGA 285"
 			(at 553.72 160.02 0)
 			(effects
 				(font
@@ -29552,7 +29561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:csfBGA 285"
 			(at 554.99 209.55 0)
 			(effects
 				(font
@@ -30470,7 +30479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:csfBGA 285"
 			(at 642.62 175.26 0)
 			(effects
 				(font
@@ -31388,7 +31397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:csfBGA 285"
 			(at 704.85 274.32 0)
 			(effects
 				(font
@@ -32306,7 +32315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:csfBGA 285"
 			(at 728.98 67.31 0)
 			(effects
 				(font
@@ -33224,7 +33233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:csfBGA 285"
 			(at 544.83 78.74 0)
 			(effects
 				(font
@@ -34142,7 +34151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:csfBGA 285"
 			(at 735.33 180.34 0)
 			(effects
 				(font
@@ -35060,7 +35069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:csfBGA 285"
 			(at 398.78 203.2 0)
 			(effects
 				(font
@@ -35978,7 +35987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:csfBGA 285"
 			(at 330.2 140.97 0)
 			(effects
 				(font
@@ -36896,7 +36905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:csfBGA 285"
 			(at 21.59 189.23 0)
 			(effects
 				(font
@@ -37814,7 +37823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 467.36 215.9 0)
 			(effects
 				(font
@@ -37883,7 +37892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 473.71 215.9 0)
 			(effects
 				(font
@@ -37952,7 +37961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 480.06 215.9 0)
 			(effects
 				(font
@@ -38021,7 +38030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 486.41 215.9 0)
 			(effects
 				(font
@@ -38090,7 +38099,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 434.34 91.44 0)
 			(effects
 				(font
@@ -38159,7 +38168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 434.34 93.98 0)
 			(effects
 				(font
@@ -38228,7 +38237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 434.34 104.14 0)
 			(effects
 				(font
@@ -38297,7 +38306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 434.34 101.6 0)
 			(effects
 				(font
@@ -38431,7 +38440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 495.3 215.9 0)
 			(effects
 				(font
@@ -38500,7 +38509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 501.65 215.9 0)
 			(effects
 				(font
@@ -39109,7 +39118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:Thin-DFN4"
+		(property "Footprint" "Package_DFN_QFN:UDFN-4-1EP_1x1mm_P0.65mm_EP0.48x0.48mm"
 			(at 143.51 213.36 0)
 			(effects
 				(font
@@ -39184,7 +39193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 140.97 220.98 0)
 			(effects
 				(font
@@ -39253,7 +39262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 176.53 220.98 0)
 			(effects
 				(font
@@ -39361,7 +39370,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:Test_Point-Connector")
+		(lib_id "Connector:TestPoint")
 		(at 176.53 215.9 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -39386,8 +39395,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:small-testpoint"
-			(at 176.53 215.9 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 176.53 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39395,8 +39404,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 176.53 215.9 0)
+		(property "Datasheet" "~"
+			(at 176.53 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39404,7 +39413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 176.53 215.9 0)
 			(effects
 				(font
@@ -39450,7 +39459,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:PUSB3FR4Z"
 			(at 407.67 93.98 0)
 			(effects
 				(font
@@ -39606,7 +39615,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:PUSB3FR4Z"
 			(at 405.13 106.68 0)
 			(effects
 				(font
@@ -40312,7 +40321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:C_0402_NoSilk"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 466.09 298.45 0)
 			(effects
 				(font
@@ -40450,7 +40459,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal"
 			(at 681.99 95.25 0)
 			(effects
 				(font
@@ -40887,7 +40896,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 129.54 326.898 90)
 			(effects
 				(font
@@ -41023,7 +41032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 129.54 337.058 90)
 			(effects
 				(font
@@ -41561,7 +41570,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 129.54 367.538 90)
 			(effects
 				(font
@@ -42813,7 +42822,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 129.54 377.698 90)
 			(effects
 				(font
@@ -43060,7 +43069,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 129.54 357.378 90)
 			(effects
 				(font
@@ -44046,7 +44055,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 129.54 347.218 90)
 			(effects
 				(font
@@ -44520,7 +44529,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 129.54 398.018 90)
 			(effects
 				(font
@@ -44588,7 +44597,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 129.54 387.858 90)
 			(effects
 				(font
@@ -45465,7 +45474,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal"
 			(at 681.99 124.46 0)
 			(effects
 				(font
@@ -46112,7 +46121,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal"
 			(at 628.65 124.46 0)
 			(effects
 				(font
