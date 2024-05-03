@@ -1579,15 +1579,16 @@
 				)
 			)
 		)
-		(symbol "Device:C_Small"
+		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.254 1.778 0)
+				(at 0.635 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1595,13 +1596,146 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:L"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "Footprint" ""
@@ -1622,7 +1756,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
+			(property "Description" "Inductor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1631,7 +1765,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "capacitor cap"
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1640,7 +1774,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1649,25 +1783,49 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
+			(symbol "L_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid 0.6323 -1.905)
+					(end 0 -1.27)
 					(stroke
-						(width 0.3302)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -0.635)
+					(end 0 0)
 					(stroke
-						(width 0.3048)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1675,11 +1833,11 @@
 					)
 				)
 			)
-			(symbol "C_Small_1_1"
+			(symbol "L_1_1"
 				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1695,9 +1853,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1883,165 +2041,6 @@
 				)
 			)
 		)
-		(symbol "Device:L_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 0.762 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "L_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_Small_0_1"
-				(arc
-					(start 0 -2.032)
-					(mid 0.5058 -1.524)
-					(end 0 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.016)
-					(mid 0.5058 -0.508)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.5058 0.508)
-					(end 0 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.016)
-					(mid 0.5058 1.524)
-					(end 0 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.508)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.508)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -2146,128 +2145,6 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:R_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
 					(name "~"
 						(effects
 							(font
@@ -3222,7 +3099,7 @@
 				)
 			)
 		)
-		(symbol "HispalisFPGA-rescue:DSC6001CI2A-016.0000T-Components"
+		(symbol "HispalisFPGA:DSC6001CI2A-016.0000T-Components"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3368,7 +3245,7 @@
 				)
 			)
 		)
-		(symbol "HispalisFPGA-rescue:FAN53555-Components"
+		(symbol "HispalisFPGA:FAN53555-Components"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3802,7 +3679,7 @@
 				)
 			)
 		)
-		(symbol "HispalisFPGA-rescue:FAN53600-Components"
+		(symbol "HispalisFPGA:FAN53600-Components"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3984,7 +3861,7 @@
 				)
 			)
 		)
-		(symbol "HispalisFPGA-rescue:LFE5UM-285-Components"
+		(symbol "HispalisFPGA:LFE5UM-285-Components"
 			(pin_names
 				(offset 1.016)
 			)
@@ -9305,7 +9182,7 @@
 				)
 			)
 		)
-		(symbol "HispalisFPGA-rescue:MIC5504-1.8YM5-TR-Components"
+		(symbol "HispalisFPGA:MIC5504-1.8YM5-TR-Components"
 			(pin_names
 				(offset 1.016)
 			)
@@ -9451,7 +9328,7 @@
 				)
 			)
 		)
-		(symbol "HispalisFPGA-rescue:MIC5504-2.5YM5-TR-Components"
+		(symbol "HispalisFPGA:MIC5504-2.5YM5-TR-Components"
 			(pin_names
 				(offset 1.016)
 			)
@@ -9597,7 +9474,7 @@
 				)
 			)
 		)
-		(symbol "HispalisFPGA-rescue:S25FL064L-Components"
+		(symbol "HispalisFPGA:S25FL064L-Components"
 			(pin_names
 				(offset 1.016)
 			)
@@ -9815,7 +9692,7 @@
 				)
 			)
 		)
-		(symbol "HispalisFPGA-rescue:S27KS0641DPBHI020-Components"
+		(symbol "HispalisFPGA:S27KS0641DPBHI020-Components"
 			(pin_names
 				(offset 1.016)
 			)
@@ -10231,7 +10108,7 @@
 				)
 			)
 		)
-		(symbol "HispalisFPGA-rescue:USBC-Components"
+		(symbol "HispalisFPGA:USBC-Components"
 			(pin_names
 				(offset 1.016)
 			)
@@ -23226,7 +23103,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Device:R")
 		(at 325.12 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23295,7 +23172,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Device:R")
 		(at 252.73 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23364,7 +23241,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:DSC6001CI2A-016.0000T-Components")
+		(lib_id "HispalisFPGA:DSC6001CI2A-016.0000T-Components")
 		(at 45.72 346.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23438,7 +23315,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 46.99 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23507,7 +23384,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 54.61 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23576,7 +23453,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 90.17 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23645,7 +23522,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 82.55 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23714,7 +23591,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 76.2 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23783,7 +23660,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 68.58 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23852,7 +23729,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 104.14 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23921,7 +23798,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 96.52 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23990,7 +23867,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 55.88 267.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24059,7 +23936,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 48.26 267.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24193,7 +24070,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 63.5 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24262,7 +24139,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 55.88 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24396,7 +24273,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:MIC5504-2.5YM5-TR-Components")
+		(lib_id "HispalisFPGA:MIC5504-2.5YM5-TR-Components")
 		(at 143.51 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24471,7 +24348,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 140.97 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24540,7 +24417,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 176.53 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24739,7 +24616,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Small")
+		(lib_id "Device:L")
 		(at 113.03 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24808,7 +24685,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:FAN53555-Components")
+		(lib_id "HispalisFPGA:FAN53555-Components")
 		(at 83.82 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24931,7 +24808,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 119.38 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25000,7 +24877,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:FAN53600-Components")
+		(lib_id "HispalisFPGA:FAN53600-Components")
 		(at 77.47 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25146,7 +25023,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 64.77 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25410,7 +25287,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 71.12 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25479,7 +25356,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 64.77 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25613,7 +25490,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Small")
+		(lib_id "Device:L")
 		(at 128.27 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25682,7 +25559,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 134.62 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26339,7 +26216,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Device:R")
 		(at 227.33 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26408,7 +26285,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:S25FL064L-Components")
+		(lib_id "HispalisFPGA:S25FL064L-Components")
 		(at 307.34 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26560,7 +26437,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Device:R")
 		(at 245.11 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26889,7 +26766,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 30.48 356.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26958,7 +26835,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 342.9 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27027,7 +26904,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 90.17 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27096,7 +26973,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 82.55 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27295,7 +27172,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 36.83 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27364,7 +27241,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 29.21 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27628,7 +27505,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 628.65 295.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27697,7 +27574,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 614.68 295.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27766,7 +27643,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:S27KS0641DPBHI020-Components")
+		(lib_id "HispalisFPGA:S27KS0641DPBHI020-Components")
 		(at 576.58 284.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27886,7 +27763,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Device:R")
 		(at 480.06 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28022,7 +27899,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Device:R")
 		(at 264.16 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28221,7 +28098,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Device:R")
 		(at 273.05 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28617,7 +28494,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:LFE5UM-285-Components")
+		(lib_id "HispalisFPGA:LFE5UM-285-Components")
 		(at 553.72 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29535,7 +29412,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:LFE5UM-285-Components")
+		(lib_id "HispalisFPGA:LFE5UM-285-Components")
 		(at 554.99 209.55 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -30453,7 +30330,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:LFE5UM-285-Components")
+		(lib_id "HispalisFPGA:LFE5UM-285-Components")
 		(at 642.62 175.26 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -31371,7 +31248,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:LFE5UM-285-Components")
+		(lib_id "HispalisFPGA:LFE5UM-285-Components")
 		(at 704.85 274.32 0)
 		(unit 4)
 		(exclude_from_sim no)
@@ -32289,7 +32166,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:LFE5UM-285-Components")
+		(lib_id "HispalisFPGA:LFE5UM-285-Components")
 		(at 728.98 67.31 0)
 		(unit 5)
 		(exclude_from_sim no)
@@ -33207,7 +33084,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:LFE5UM-285-Components")
+		(lib_id "HispalisFPGA:LFE5UM-285-Components")
 		(at 544.83 78.74 0)
 		(unit 6)
 		(exclude_from_sim no)
@@ -34125,7 +34002,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:LFE5UM-285-Components")
+		(lib_id "HispalisFPGA:LFE5UM-285-Components")
 		(at 735.33 180.34 0)
 		(unit 7)
 		(exclude_from_sim no)
@@ -35043,7 +34920,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:LFE5UM-285-Components")
+		(lib_id "HispalisFPGA:LFE5UM-285-Components")
 		(at 398.78 203.2 0)
 		(unit 8)
 		(exclude_from_sim no)
@@ -35961,7 +35838,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:LFE5UM-285-Components")
+		(lib_id "HispalisFPGA:LFE5UM-285-Components")
 		(at 330.2 140.97 0)
 		(unit 9)
 		(exclude_from_sim no)
@@ -36879,7 +36756,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:LFE5UM-285-Components")
+		(lib_id "HispalisFPGA:LFE5UM-285-Components")
 		(at 21.59 189.23 0)
 		(unit 10)
 		(exclude_from_sim no)
@@ -37797,7 +37674,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 467.36 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -37866,7 +37743,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 473.71 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -37935,7 +37812,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 480.06 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38004,7 +37881,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 486.41 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38073,7 +37950,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 434.34 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38142,7 +38019,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 434.34 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38211,7 +38088,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 434.34 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38280,7 +38157,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 434.34 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38414,7 +38291,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 495.3 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38483,7 +38360,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 501.65 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38552,7 +38429,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:USBC-Components")
+		(lib_id "HispalisFPGA:USBC-Components")
 		(at 473.71 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38687,7 +38564,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:USBC-Components")
+		(lib_id "HispalisFPGA:USBC-Components")
 		(at 434.34 53.34 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -38822,7 +38699,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:USBC-Components")
+		(lib_id "HispalisFPGA:USBC-Components")
 		(at 485.14 57.15 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -38957,7 +38834,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:USBC-Components")
+		(lib_id "HispalisFPGA:USBC-Components")
 		(at 448.31 91.44 0)
 		(unit 4)
 		(exclude_from_sim no)
@@ -39092,7 +38969,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HispalisFPGA-rescue:MIC5504-1.8YM5-TR-Components")
+		(lib_id "HispalisFPGA:MIC5504-1.8YM5-TR-Components")
 		(at 143.51 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -39167,7 +39044,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 140.97 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -39236,7 +39113,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 176.53 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -40295,7 +40172,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 466.09 298.45 0)
 		(unit 1)
 		(exclude_from_sim no)
