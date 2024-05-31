@@ -299,6 +299,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -326,15 +327,27 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
           "show": true
         },
         {
           "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
+          "label": "JLC",
+          "name": "JLC",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
           "show": true
         },
         {
@@ -366,7 +379,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": false,
-      "sort_field": "${QUANTITY}"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
