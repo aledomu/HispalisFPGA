@@ -12300,7 +12300,7 @@
 		(uuid "0c993583-3b66-467b-b7d2-71a2af700af3")
 	)
 	(junction
-		(at 334.01 290.83)
+		(at 331.47 289.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d164e1d-3651-47eb-8174-ee5ba5fe1616")
@@ -12414,7 +12414,7 @@
 		(uuid "36e4001a-0d32-4a30-aef3-5719e5fb0776")
 	)
 	(junction
-		(at 334.01 267.97)
+		(at 331.47 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "373e0110-8eea-4536-9979-a533a4fce8dc")
@@ -12456,7 +12456,7 @@
 		(uuid "3d181b0f-a857-48dc-8cee-fea5bd0e1a4a")
 	)
 	(junction
-		(at 334.01 233.68)
+		(at 331.47 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d1985a5-86c9-426e-8358-d9f8eb8760f1")
@@ -12516,7 +12516,7 @@
 		(uuid "44a71df1-e7df-423e-8bdc-08b9c362fca6")
 	)
 	(junction
-		(at 334.01 256.54)
+		(at 331.47 255.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45cb3127-a7a6-4a0b-9f5e-ca41d84f1bea")
@@ -12600,7 +12600,7 @@
 		(uuid "63f39f39-99f2-4b39-9b75-c7a8a9c92b10")
 	)
 	(junction
-		(at 334.01 279.4)
+		(at 331.47 278.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6427c62c-2ed7-460e-90bc-af2f58862a02")
@@ -12630,7 +12630,7 @@
 		(uuid "6c7bf1f2-88a0-497d-967e-8611ae83fa20")
 	)
 	(junction
-		(at 334.01 302.26)
+		(at 331.47 300.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "713ce831-9648-448e-9040-8da7eb5aac68")
@@ -12858,7 +12858,7 @@
 		(uuid "bd5e10ee-c2cd-4c67-b4b4-a0071dd53193")
 	)
 	(junction
-		(at 334.01 245.11)
+		(at 331.47 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be3472e2-d053-4aea-a1f5-80c0f746302f")
@@ -13357,7 +13357,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 245.11) (xy 334.01 256.54)
+			(xy 331.47 243.84) (xy 331.47 255.27)
 		)
 		(stroke
 			(width 0)
@@ -13434,16 +13434,6 @@
 			(type default)
 		)
 		(uuid "10d95b86-37bd-4e99-b996-a34d79dd6e2f")
-	)
-	(wire
-		(pts
-			(xy 313.69 302.26) (xy 316.23 302.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11dafe18-e50d-4843-803b-3aeb92e48a1c")
 	)
 	(wire
 		(pts
@@ -13527,7 +13517,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 256.54) (xy 334.01 267.97)
+			(xy 331.47 255.27) (xy 331.47 266.7)
 		)
 		(stroke
 			(width 0)
@@ -14037,13 +14027,23 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 222.25) (xy 334.01 222.25)
+			(xy 328.93 220.98) (xy 331.47 220.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "300dd13a-34b4-4769-a239-e780f4bb84bd")
+	)
+	(wire
+		(pts
+			(xy 318.77 278.13) (xy 321.31 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "301f7874-a421-4fa1-80d4-7a5ddc30fe65")
 	)
 	(wire
 		(pts
@@ -14057,13 +14057,13 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 267.97) (xy 316.23 267.97)
+			(xy 318.77 300.99) (xy 321.31 300.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31cb06f8-0a0b-4317-b24d-5c7a001a5750")
+		(uuid "31db6dbc-fdf2-4220-ae38-de0f2399b105")
 	)
 	(wire
 		(pts
@@ -14094,16 +14094,6 @@
 			(type default)
 		)
 		(uuid "348cc0ae-51b9-4271-9ae0-6f035275263b")
-	)
-	(wire
-		(pts
-			(xy 313.69 245.11) (xy 316.23 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "352faa9d-daaf-4b8e-b59d-04fbee19b361")
 	)
 	(wire
 		(pts
@@ -14174,26 +14164,6 @@
 			(type default)
 		)
 		(uuid "3727a3a5-3dc3-4214-aec0-815ca4001fa1")
-	)
-	(wire
-		(pts
-			(xy 313.69 279.4) (xy 316.23 279.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37c7e12c-cd55-4779-9110-c608b2508776")
-	)
-	(wire
-		(pts
-			(xy 313.69 256.54) (xy 316.23 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "399bc0b3-3b90-4318-a375-0fea947df74e")
 	)
 	(wire
 		(pts
@@ -14344,6 +14314,16 @@
 			(type dash)
 		)
 		(uuid "3f929041-45d2-404c-acb5-f8b9acba9f15")
+	)
+	(wire
+		(pts
+			(xy 318.77 243.84) (xy 321.31 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa579be-2624-4e94-998b-7bd74d3c7d22")
 	)
 	(wire
 		(pts
@@ -14607,7 +14587,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 267.97) (xy 334.01 267.97)
+			(xy 328.93 266.7) (xy 331.47 266.7)
 		)
 		(stroke
 			(width 0)
@@ -14644,6 +14624,16 @@
 			(type default)
 		)
 		(uuid "4dcb9afc-485d-4f39-ac72-7cc05c5b6a62")
+	)
+	(wire
+		(pts
+			(xy 318.77 232.41) (xy 321.31 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ddab063-6b97-4b8b-aa3b-1ce38aa022b4")
 	)
 	(wire
 		(pts
@@ -14847,7 +14837,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 279.4) (xy 334.01 290.83)
+			(xy 331.47 278.13) (xy 331.47 289.56)
 		)
 		(stroke
 			(width 0)
@@ -14957,7 +14947,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 302.26) (xy 334.01 304.8)
+			(xy 331.47 300.99) (xy 331.47 303.53)
 		)
 		(stroke
 			(width 0)
@@ -15054,6 +15044,16 @@
 			(type default)
 		)
 		(uuid "616341ba-a532-4024-b249-814f30b876a4")
+	)
+	(wire
+		(pts
+			(xy 318.77 266.7) (xy 321.31 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6167eaea-e009-4c2a-b36a-0c9eb1616a00")
 	)
 	(wire
 		(pts
@@ -15597,16 +15597,6 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 290.83) (xy 316.23 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7de8d54a-ffc8-4063-955d-33c861e3f649")
-	)
-	(wire
-		(pts
 			(xy 596.9 261.62) (xy 599.44 261.62)
 		)
 		(stroke
@@ -15667,7 +15657,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 233.68) (xy 334.01 245.11)
+			(xy 331.47 232.41) (xy 331.47 243.84)
 		)
 		(stroke
 			(width 0)
@@ -16207,7 +16197,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 279.4) (xy 334.01 279.4)
+			(xy 328.93 278.13) (xy 331.47 278.13)
 		)
 		(stroke
 			(width 0)
@@ -16427,7 +16417,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 233.68) (xy 334.01 233.68)
+			(xy 328.93 232.41) (xy 331.47 232.41)
 		)
 		(stroke
 			(width 0)
@@ -16537,17 +16527,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 233.68) (xy 316.23 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac7a5728-0129-4964-a92b-43e4af8f797d")
-	)
-	(wire
-		(pts
-			(xy 331.47 245.11) (xy 334.01 245.11)
+			(xy 328.93 243.84) (xy 331.47 243.84)
 		)
 		(stroke
 			(width 0)
@@ -16677,7 +16657,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 302.26) (xy 334.01 302.26)
+			(xy 328.93 300.99) (xy 331.47 300.99)
 		)
 		(stroke
 			(width 0)
@@ -16867,6 +16847,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 289.56) (xy 321.31 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0634fdf-d253-452d-a2b8-3a349f8b5c14")
+	)
+	(wire
+		(pts
 			(xy 46.99 160.02) (xy 46.99 170.18)
 		)
 		(stroke
@@ -16887,7 +16877,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 256.54) (xy 334.01 256.54)
+			(xy 328.93 255.27) (xy 331.47 255.27)
 		)
 		(stroke
 			(width 0)
@@ -16904,6 +16894,16 @@
 			(type default)
 		)
 		(uuid "c261a423-c2e5-46d3-bf33-c7426f7b2435")
+	)
+	(wire
+		(pts
+			(xy 318.77 220.98) (xy 321.31 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3095caf-b80e-4ba6-bbf3-83e6f8a57343")
 	)
 	(wire
 		(pts
@@ -17157,7 +17157,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 267.97) (xy 334.01 279.4)
+			(xy 331.47 266.7) (xy 331.47 278.13)
 		)
 		(stroke
 			(width 0)
@@ -17337,7 +17337,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 290.83) (xy 334.01 290.83)
+			(xy 328.93 289.56) (xy 331.47 289.56)
 		)
 		(stroke
 			(width 0)
@@ -17677,16 +17677,6 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 222.25) (xy 316.23 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5fdaccd-0491-48cf-b685-7a1bf89d228f")
-	)
-	(wire
-		(pts
 			(xy 431.8 171.45) (xy 434.34 171.45)
 		)
 		(stroke
@@ -17827,7 +17817,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 290.83) (xy 334.01 302.26)
+			(xy 331.47 289.56) (xy 331.47 300.99)
 		)
 		(stroke
 			(width 0)
@@ -17927,7 +17917,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 222.25) (xy 334.01 233.68)
+			(xy 331.47 220.98) (xy 331.47 232.41)
 		)
 		(stroke
 			(width 0)
@@ -17964,6 +17954,16 @@
 			(type default)
 		)
 		(uuid "f439dfc8-45d4-480f-9daa-20842ecd0e69")
+	)
+	(wire
+		(pts
+			(xy 318.77 255.27) (xy 321.31 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f478c1f2-706a-430d-8d87-23856b2f0604")
 	)
 	(wire
 		(pts
@@ -19045,7 +19045,7 @@
 	)
 	(global_label "LED5"
 		(shape passive)
-		(at 313.69 267.97 180)
+		(at 318.77 266.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19054,7 +19054,7 @@
 		)
 		(uuid "2bf56c95-b9be-4464-b48b-854672822f25")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 267.97 0)
+			(at 318.77 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19187,7 +19187,7 @@
 	)
 	(global_label "LED6"
 		(shape passive)
-		(at 313.69 279.4 180)
+		(at 318.77 278.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19196,7 +19196,7 @@
 		)
 		(uuid "315ed1d7-117c-44fe-b6d3-5c8988d16f29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 279.4 0)
+			(at 318.77 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19787,7 +19787,7 @@
 	)
 	(global_label "LED8"
 		(shape passive)
-		(at 313.69 302.26 180)
+		(at 318.77 300.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19796,7 +19796,7 @@
 		)
 		(uuid "537322e8-68e3-4ac1-af52-147bdae3c691")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 302.26 0)
+			(at 318.77 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19827,7 +19827,7 @@
 	)
 	(global_label "LED1"
 		(shape passive)
-		(at 313.69 222.25 180)
+		(at 318.77 220.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19836,7 +19836,7 @@
 		)
 		(uuid "5538758b-fca9-46c0-97f5-4506da2602c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 222.25 0)
+			(at 318.77 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21703,7 +21703,7 @@
 	)
 	(global_label "LED7"
 		(shape passive)
-		(at 313.69 290.83 180)
+		(at 318.77 289.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21712,7 +21712,7 @@
 		)
 		(uuid "b6e09e98-fdf3-42a0-b0cd-a2274b023b20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 290.83 0)
+			(at 318.77 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21763,7 +21763,7 @@
 	)
 	(global_label "LED4"
 		(shape passive)
-		(at 313.69 256.54 180)
+		(at 318.77 255.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21772,7 +21772,7 @@
 		)
 		(uuid "b9a0fef0-ef4a-425e-9ae1-3172778d2b28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 256.54 0)
+			(at 318.77 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22451,7 +22451,7 @@
 	)
 	(global_label "LED2"
 		(shape passive)
-		(at 313.69 233.68 180)
+		(at 318.77 232.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22460,7 +22460,7 @@
 		)
 		(uuid "e293a0d4-10c7-4678-843c-492708ead555")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 233.68 0)
+			(at 318.77 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22613,7 +22613,7 @@
 	)
 	(global_label "LED3"
 		(shape passive)
-		(at 313.69 245.11 180)
+		(at 318.77 243.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22622,7 +22622,7 @@
 		)
 		(uuid "ea690e7f-9f21-4f07-b3f7-9ab5e0b770fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 245.11 0)
+			(at 318.77 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41042,7 +41042,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 327.66 302.26 0)
+		(at 325.12 300.99 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -41052,7 +41052,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c15d9b2-3a5f-4a87-8bfd-0adde2bb532c")
 		(property "Reference" "LD8"
-			(at 329.2475 295.91 0)
+			(at 326.7075 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41060,7 +41060,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 329.2475 298.45 0)
+			(at 326.7075 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41068,7 +41068,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 327.66 302.26 0)
+			(at 325.12 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41077,7 +41077,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1806151820_Hubei-KENTO-Elec-KT-0805G_C2297.pdf"
-			(at 327.66 302.26 0)
+			(at 325.12 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41086,7 +41086,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 327.66 302.26 0)
+			(at 325.12 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41095,7 +41095,7 @@
 			)
 		)
 		(property "JLC" "0805"
-			(at 327.66 302.26 0)
+			(at 325.12 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41104,7 +41104,7 @@
 			)
 		)
 		(property "LCSC" "C2297"
-			(at 327.66 302.26 0)
+			(at 325.12 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42298,93 +42298,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 320.04 256.54 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38986378-8760-42ef-a0f7-6e7037150561")
-		(property "Reference" "R24"
-			(at 320.04 250.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200R"
-			(at 320.04 252.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 320.04 258.318 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 320.04 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "0402"
-			(at 320.04 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25087"
-			(at 320.04 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fde6dd74-126c-4419-8f6a-11aa669a687c")
-		)
-		(pin "2"
-			(uuid "76c6f761-59ef-4312-8486-18049bf0bce5")
-		)
-		(instances
-			(project "HispalisFPGA"
-				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 269.24 269.24 0)
 		(unit 1)
@@ -42452,7 +42365,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 327.66 222.25 0)
+		(at 325.12 220.98 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -42462,7 +42375,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ba57ead-f16d-4d7b-8177-e986cca04058")
 		(property "Reference" "LD1"
-			(at 329.2475 215.9 0)
+			(at 326.7075 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42470,7 +42383,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 329.2475 218.44 0)
+			(at 326.7075 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42478,7 +42391,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 327.66 222.25 0)
+			(at 325.12 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42487,7 +42400,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1806151820_Hubei-KENTO-Elec-KT-0805G_C2297.pdf"
-			(at 327.66 222.25 0)
+			(at 325.12 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42496,7 +42409,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 327.66 222.25 0)
+			(at 325.12 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42505,7 +42418,7 @@
 			)
 		)
 		(property "JLC" "0805"
-			(at 327.66 222.25 0)
+			(at 325.12 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42514,7 +42427,7 @@
 			)
 		)
 		(property "LCSC" "C2297"
-			(at 327.66 222.25 0)
+			(at 325.12 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43001,7 +42914,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 327.66 290.83 0)
+		(at 325.12 289.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -43011,7 +42924,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d2eb549-254a-4cb3-95d1-daf956c3861b")
 		(property "Reference" "LD7"
-			(at 329.2475 284.48 0)
+			(at 326.7075 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43019,7 +42932,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 329.2475 287.02 0)
+			(at 326.7075 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43027,7 +42940,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 327.66 290.83 0)
+			(at 325.12 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43036,7 +42949,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1806151820_Hubei-KENTO-Elec-KT-0805G_C2297.pdf"
-			(at 327.66 290.83 0)
+			(at 325.12 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43045,7 +42958,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 327.66 290.83 0)
+			(at 325.12 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43054,7 +42967,7 @@
 			)
 		)
 		(property "JLC" "0805"
-			(at 327.66 290.83 0)
+			(at 325.12 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43063,7 +42976,7 @@
 			)
 		)
 		(property "LCSC" "C2297"
-			(at 327.66 290.83 0)
+			(at 325.12 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43241,93 +43154,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 320.04 290.83 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "508b64b7-9b49-4182-8829-5cf831451067")
-		(property "Reference" "R27"
-			(at 320.04 284.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200R"
-			(at 320.04 287.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 320.04 292.608 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 320.04 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "0402"
-			(at 320.04 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25087"
-			(at 320.04 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "319a4801-9326-46d6-ab8e-f5332d3e4e78")
-		)
-		(pin "2"
-			(uuid "a36a6772-089e-4431-8766-ce65ba68b0d0")
-		)
-		(instances
-			(project "HispalisFPGA"
-				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 129.54 341.63 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -43414,7 +43240,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 327.66 267.97 0)
+		(at 325.12 266.7 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -43424,7 +43250,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c92b8ab-b7c5-47e9-92b6-cac5951b7025")
 		(property "Reference" "LD5"
-			(at 329.2475 261.62 0)
+			(at 326.7075 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43432,7 +43258,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 329.2475 264.16 0)
+			(at 326.7075 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43440,7 +43266,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 327.66 267.97 0)
+			(at 325.12 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43449,7 +43275,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1806151820_Hubei-KENTO-Elec-KT-0805G_C2297.pdf"
-			(at 327.66 267.97 0)
+			(at 325.12 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43458,7 +43284,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 327.66 267.97 0)
+			(at 325.12 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43467,7 +43293,7 @@
 			)
 		)
 		(property "JLC" "0805"
-			(at 327.66 267.97 0)
+			(at 325.12 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43476,7 +43302,7 @@
 			)
 		)
 		(property "LCSC" "C2297"
-			(at 327.66 267.97 0)
+			(at 325.12 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43957,7 +43783,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 334.01 304.8 0)
+		(at 331.47 303.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -43966,7 +43792,7 @@
 		(fields_autoplaced yes)
 		(uuid "78193d15-091c-4dd9-97e3-66d3a297b1c5")
 		(property "Reference" "#PWR052"
-			(at 334.01 311.15 0)
+			(at 331.47 309.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43975,7 +43801,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 334.01 309.88 0)
+			(at 331.47 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43983,7 +43809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 334.01 304.8 0)
+			(at 331.47 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43992,7 +43818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 334.01 304.8 0)
+			(at 331.47 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44001,7 +43827,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 334.01 304.8 0)
+			(at 331.47 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44016,93 +43842,6 @@
 			(project "HispalisFPGA"
 				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 320.04 267.97 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78881eb1-d677-4813-8200-958b3058aa5e")
-		(property "Reference" "R25"
-			(at 320.04 261.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200R"
-			(at 320.04 264.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 320.04 269.748 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 320.04 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "0402"
-			(at 320.04 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25087"
-			(at 320.04 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cce01fcd-4874-475f-a032-cdcfa70a8115")
-		)
-		(pin "2"
-			(uuid "d856c3e1-00ec-4fce-b592-45b9bdcd80d4")
-		)
-		(instances
-			(project "HispalisFPGA"
-				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
-					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -44604,93 +44343,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 320.04 222.25 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8230a1b1-3834-4f02-acd7-d95f81e2cc64")
-		(property "Reference" "R21"
-			(at 320.04 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200R"
-			(at 320.04 218.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 320.04 224.028 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 320.04 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "0402"
-			(at 320.04 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25087"
-			(at 320.04 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d4152b4-655a-4426-8ddd-c2eed7623388")
-		)
-		(pin "2"
-			(uuid "005a95ce-2afd-474d-85c9-ee42e8f55e4a")
-		)
-		(instances
-			(project "HispalisFPGA"
-				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 636.27 129.54 90)
 		(unit 1)
@@ -44903,93 +44555,6 @@
 			(project "HispalisFPGA"
 				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
 					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 320.04 233.68 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87c94ea5-5fd5-4501-b678-6c2b835b8fe2")
-		(property "Reference" "R22"
-			(at 320.04 227.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200R"
-			(at 320.04 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 320.04 235.458 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 320.04 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "0402"
-			(at 320.04 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25087"
-			(at 320.04 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20072033-4183-4efc-9d3b-19a3d64bfb37")
-		)
-		(pin "2"
-			(uuid "eaecb25f-a3e7-453b-b563-0f571789ada8")
-		)
-		(instances
-			(project "HispalisFPGA"
-				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
-					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -45431,93 +44996,6 @@
 			(project "HispalisFPGA"
 				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 320.04 279.4 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ad5bb11-3971-458b-b1ac-ff8ada9c2319")
-		(property "Reference" "R26"
-			(at 320.04 273.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200R"
-			(at 320.04 275.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 320.04 281.178 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 320.04 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "0402"
-			(at 320.04 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25087"
-			(at 320.04 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ebcaa59-bd4d-4b1a-b6d7-2ba37b7a911c")
-		)
-		(pin "2"
-			(uuid "d243fc28-fe7a-4908-9ec7-4cb9a8de6423")
-		)
-		(instances
-			(project "HispalisFPGA"
-				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
-					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -46425,7 +45903,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 327.66 233.68 0)
+		(at 325.12 232.41 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -46435,7 +45913,7 @@
 		(fields_autoplaced yes)
 		(uuid "c184113d-57b9-41d4-8793-3a063be8e48c")
 		(property "Reference" "LD2"
-			(at 329.2475 227.33 0)
+			(at 326.7075 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46443,7 +45921,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 329.2475 229.87 0)
+			(at 326.7075 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46451,7 +45929,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 327.66 233.68 0)
+			(at 325.12 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46460,7 +45938,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1806151820_Hubei-KENTO-Elec-KT-0805G_C2297.pdf"
-			(at 327.66 233.68 0)
+			(at 325.12 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46469,7 +45947,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 327.66 233.68 0)
+			(at 325.12 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46478,7 +45956,7 @@
 			)
 		)
 		(property "JLC" "0805"
-			(at 327.66 233.68 0)
+			(at 325.12 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46487,7 +45965,7 @@
 			)
 		)
 		(property "LCSC" "C2297"
-			(at 327.66 233.68 0)
+			(at 325.12 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46512,7 +45990,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 327.66 245.11 0)
+		(at 325.12 243.84 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -46521,7 +45999,7 @@
 		(dnp no)
 		(uuid "caacd413-1b1e-45a4-9ce7-6c724afc6aa8")
 		(property "Reference" "LD3"
-			(at 329.2475 238.76 0)
+			(at 326.7075 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46529,7 +46007,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 329.2475 241.3 0)
+			(at 326.7075 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46537,7 +46015,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 327.66 245.11 0)
+			(at 325.12 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46546,7 +46024,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1806151820_Hubei-KENTO-Elec-KT-0805G_C2297.pdf"
-			(at 327.66 245.11 0)
+			(at 325.12 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46555,7 +46033,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 327.66 245.11 0)
+			(at 325.12 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46564,7 +46042,7 @@
 			)
 		)
 		(property "JLC" "0805"
-			(at 327.66 245.11 0)
+			(at 325.12 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46573,7 +46051,7 @@
 			)
 		)
 		(property "LCSC" "C2297"
-			(at 327.66 245.11 0)
+			(at 325.12 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46800,7 +46278,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 327.66 256.54 0)
+		(at 325.12 255.27 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -46810,7 +46288,7 @@
 		(fields_autoplaced yes)
 		(uuid "d36aead6-2ddf-4e03-9d81-6d8ed8c0293e")
 		(property "Reference" "LD4"
-			(at 329.2475 250.19 0)
+			(at 326.7075 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46818,7 +46296,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 329.2475 252.73 0)
+			(at 326.7075 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46826,7 +46304,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 327.66 256.54 0)
+			(at 325.12 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46835,7 +46313,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1806151820_Hubei-KENTO-Elec-KT-0805G_C2297.pdf"
-			(at 327.66 256.54 0)
+			(at 325.12 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46844,7 +46322,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 327.66 256.54 0)
+			(at 325.12 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46853,7 +46331,7 @@
 			)
 		)
 		(property "JLC" "0805"
-			(at 327.66 256.54 0)
+			(at 325.12 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46862,7 +46340,7 @@
 			)
 		)
 		(property "LCSC" "C2297"
-			(at 327.66 256.54 0)
+			(at 325.12 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47148,93 +46626,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 320.04 302.26 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea0b80b9-ffdb-4ff4-ac98-44b791678bdc")
-		(property "Reference" "R28"
-			(at 320.04 295.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200R"
-			(at 320.04 298.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 320.04 304.038 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 320.04 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "0402"
-			(at 320.04 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25087"
-			(at 320.04 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ded057d3-b77a-429b-a6c2-28ac252cdd4e")
-		)
-		(pin "2"
-			(uuid "7e6124c2-cbee-494e-84fd-c7a79be0ca81")
-		)
-		(instances
-			(project "HispalisFPGA"
-				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 623.57 132.08 90)
 		(unit 1)
@@ -47370,7 +46761,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 327.66 279.4 0)
+		(at 325.12 278.13 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -47380,7 +46771,7 @@
 		(fields_autoplaced yes)
 		(uuid "f34d37f1-849a-40e6-bf8f-d647c57aa3c8")
 		(property "Reference" "LD6"
-			(at 329.2475 273.05 0)
+			(at 326.7075 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47388,7 +46779,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 329.2475 275.59 0)
+			(at 326.7075 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47396,7 +46787,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 327.66 279.4 0)
+			(at 325.12 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47405,7 +46796,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1806151820_Hubei-KENTO-Elec-KT-0805G_C2297.pdf"
-			(at 327.66 279.4 0)
+			(at 325.12 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47414,7 +46805,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 327.66 279.4 0)
+			(at 325.12 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47423,7 +46814,7 @@
 			)
 		)
 		(property "JLC" "0805"
-			(at 327.66 279.4 0)
+			(at 325.12 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47432,7 +46823,7 @@
 			)
 		)
 		(property "LCSC" "C2297"
-			(at 327.66 279.4 0)
+			(at 325.12 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47654,93 +47045,6 @@
 			(project "HispalisFPGA"
 				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
 					(reference "PMOD2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 320.04 245.11 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f80492bb-fe7d-4a06-95e7-05fdfcddecbe")
-		(property "Reference" "R23"
-			(at 320.04 238.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200R"
-			(at 320.04 241.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 320.04 246.888 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 320.04 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "0402"
-			(at 320.04 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25087"
-			(at 320.04 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e19948fc-4fba-4a4b-a202-520ae1f80560")
-		)
-		(pin "2"
-			(uuid "0b2f7d43-9e56-49a7-a512-3829eb241d5a")
-		)
-		(instances
-			(project "HispalisFPGA"
-				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
-					(reference "R23")
 					(unit 1)
 				)
 			)
