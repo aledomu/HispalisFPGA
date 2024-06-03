@@ -12408,6 +12408,12 @@
 		(uuid "3531c766-1a27-4a07-89e7-79ce29257cf2")
 	)
 	(junction
+		(at 264.16 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35903486-f015-474a-a1d6-87b4d9a1e70b")
+	)
+	(junction
 		(at 165.1 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12960,12 +12966,6 @@
 		(uuid "e00fd174-c52e-4c35-ac58-468c9bed2cfe")
 	)
 	(junction
-		(at 264.16 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e48e796a-236d-45be-beb8-a3b0c973ed36")
-	)
-	(junction
 		(at 90.17 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13074,6 +13074,16 @@
 			(type default)
 		)
 		(uuid "00028b48-f8ae-49a5-90b9-9fec0a615ec5")
+	)
+	(wire
+		(pts
+			(xy 264.16 162.56) (xy 264.16 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00322c4c-0310-4830-9ec2-09ff1b9a8508")
 	)
 	(wire
 		(pts
@@ -13327,7 +13337,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 167.64) (xy 264.16 167.64)
+			(xy 273.05 165.1) (xy 264.16 165.1)
 		)
 		(stroke
 			(width 0)
@@ -13374,16 +13384,6 @@
 			(type default)
 		)
 		(uuid "0e910519-8e7a-4a58-b85a-1949021ead45")
-	)
-	(wire
-		(pts
-			(xy 273.05 166.37) (xy 273.05 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f28ea92-2aa8-4a07-a014-df15b38ca465")
 	)
 	(wire
 		(pts
@@ -13684,6 +13684,16 @@
 			(type default)
 		)
 		(uuid "1dbed14e-8082-4797-9ed3-1e2c039550c8")
+	)
+	(wire
+		(pts
+			(xy 273.05 162.56) (xy 273.05 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e9eeb42-e10a-4123-83ae-2af72d9450f3")
 	)
 	(wire
 		(pts
@@ -15107,16 +15117,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 166.37) (xy 264.16 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65de4296-7da7-435a-aba4-7a84e39310e9")
-	)
-	(wire
-		(pts
 			(xy 133.35 290.83) (xy 137.16 290.83)
 		)
 		(stroke
@@ -15204,16 +15204,6 @@
 			(type default)
 		)
 		(uuid "6a9fcf80-511a-4e12-9327-d254e420c791")
-	)
-	(wire
-		(pts
-			(xy 264.16 148.59) (xy 264.16 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6af60e3e-17a4-4198-a5c2-e2c5dc864c2e")
 	)
 	(wire
 		(pts
@@ -15474,16 +15464,6 @@
 			(type default)
 		)
 		(uuid "74c6ce9d-52b4-44a9-af3e-98fa41893ca0")
-	)
-	(wire
-		(pts
-			(xy 273.05 148.59) (xy 273.05 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7573bb11-ce3e-4359-8db7-de03cf6a84a2")
 	)
 	(wire
 		(pts
@@ -16447,6 +16427,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 153.67) (xy 273.05 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8da2046-ac91-4def-9761-0609ce3b4eb9")
+	)
+	(wire
+		(pts
 			(xy 252.73 55.88) (xy 252.73 58.42)
 		)
 		(stroke
@@ -16494,6 +16484,16 @@
 			(type default)
 		)
 		(uuid "aaa69de0-3680-4682-bf27-b9504b7d1641")
+	)
+	(wire
+		(pts
+			(xy 273.05 143.51) (xy 273.05 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abcb8688-72dd-437f-9882-f1baaffb68dc")
 	)
 	(wire
 		(pts
@@ -16917,16 +16917,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 156.21) (xy 264.16 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3896315-0db5-45e5-a393-d07089065051")
-	)
-	(wire
-		(pts
 			(xy 115.57 107.95) (xy 115.57 118.11)
 		)
 		(stroke
@@ -17084,6 +17074,16 @@
 			(type default)
 		)
 		(uuid "caa0f580-3bb7-4d6f-991b-5ad3db3939db")
+	)
+	(wire
+		(pts
+			(xy 264.16 143.51) (xy 264.16 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb2ea829-453e-467f-9f41-dfc69c0593bc")
 	)
 	(wire
 		(pts
@@ -17317,7 +17317,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 167.64) (xy 264.16 168.91)
+			(xy 264.16 165.1) (xy 264.16 168.91)
 		)
 		(stroke
 			(width 0)
@@ -17354,6 +17354,16 @@
 			(type default)
 		)
 		(uuid "da461a1c-e4d9-4113-807f-66afdd1e2884")
+	)
+	(wire
+		(pts
+			(xy 264.16 153.67) (xy 264.16 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da4cc1d2-3ee8-4917-b480-12ab7806dc0e")
 	)
 	(wire
 		(pts
@@ -17824,16 +17834,6 @@
 			(type default)
 		)
 		(uuid "ed85536d-98bc-4c8b-8c86-175f4561b2a4")
-	)
-	(wire
-		(pts
-			(xy 273.05 156.21) (xy 273.05 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edff9ab8-ee68-4023-8372-48e3f00ad88b")
 	)
 	(wire
 		(pts
@@ -28428,7 +28428,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 264.16 152.4 90)
+		(at 264.16 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28436,7 +28436,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000059ed6622")
 		(property "Reference" "BLED1"
-			(at 261.62 152.4 0)
+			(at 261.62 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28444,7 +28444,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 266.7 152.4 0)
+			(at 266.7 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28452,7 +28452,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 264.16 152.4 0)
+			(at 264.16 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28461,7 +28461,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf"
-			(at 264.16 152.4 0)
+			(at 264.16 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28470,7 +28470,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 152.4 0)
+			(at 264.16 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28479,7 +28479,7 @@
 			)
 		)
 		(property "JLC" "0603"
-			(at 264.16 152.4 0)
+			(at 264.16 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28488,7 +28488,7 @@
 			)
 		)
 		(property "LCSC" "C2286"
-			(at 264.16 152.4 0)
+			(at 264.16 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28513,7 +28513,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 264.16 162.56 0)
+		(at 264.16 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28521,7 +28521,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000059ed6751")
 		(property "Reference" "R5"
-			(at 264.922 162.052 0)
+			(at 264.922 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28530,7 +28530,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 264.922 163.576 0)
+			(at 264.922 150.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28539,7 +28539,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 264.16 162.56 0)
+			(at 264.16 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28548,7 +28548,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 162.56 0)
+			(at 264.16 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28557,7 +28557,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 162.56 0)
+			(at 264.16 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28566,7 +28566,7 @@
 			)
 		)
 		(property "JLC" "0402"
-			(at 264.16 162.56 0)
+			(at 264.16 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28575,7 +28575,7 @@
 			)
 		)
 		(property "LCSC" "C25900"
-			(at 264.16 162.56 0)
+			(at 264.16 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28730,7 +28730,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 273.05 162.56 0)
+		(at 273.05 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28738,7 +28738,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000059ed7102")
 		(property "Reference" "R6"
-			(at 273.812 162.052 0)
+			(at 273.812 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28747,7 +28747,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 273.812 163.576 0)
+			(at 273.812 150.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28756,7 +28756,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 273.05 162.56 0)
+			(at 273.05 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28765,7 +28765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 162.56 0)
+			(at 273.05 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28774,7 +28774,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 162.56 0)
+			(at 273.05 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28783,7 +28783,7 @@
 			)
 		)
 		(property "JLC" "0402"
-			(at 273.05 162.56 0)
+			(at 273.05 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28792,7 +28792,7 @@
 			)
 		)
 		(property "LCSC" "C25900"
-			(at 273.05 162.56 0)
+			(at 273.05 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28817,7 +28817,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 273.05 152.4 90)
+		(at 273.05 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28825,7 +28825,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000059ed720a")
 		(property "Reference" "BLED2"
-			(at 270.51 152.4 0)
+			(at 270.51 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28833,7 +28833,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 275.59 152.4 0)
+			(at 275.59 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28841,7 +28841,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 273.05 152.4 0)
+			(at 273.05 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28850,7 +28850,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf"
-			(at 273.05 152.4 0)
+			(at 273.05 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28859,7 +28859,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 152.4 0)
+			(at 273.05 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28868,7 +28868,7 @@
 			)
 		)
 		(property "JLC" "0603"
-			(at 273.05 152.4 0)
+			(at 273.05 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28877,7 +28877,7 @@
 			)
 		)
 		(property "LCSC" "C2286"
-			(at 273.05 152.4 0)
+			(at 273.05 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
