@@ -1,6 +1,9 @@
+*.lck
 *-backups
 *-bak
 *.net
 *.cmp
 *.kicad_prl
+_autosave-*
+~_autosave-*
 fp-info-cache
