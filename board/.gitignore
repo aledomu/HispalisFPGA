@@ -1,3 +1,6 @@
 *-backups
 *-bak
-TinyFPGA-EX.net
+*.net
+*.cmp
+*.kicad_prl
+fp-info-cache
