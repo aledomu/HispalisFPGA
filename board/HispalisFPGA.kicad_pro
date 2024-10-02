@@ -651,6 +651,30 @@
     [
       "864346d0-d3ef-428e-a44f-9476f195db98",
       "Raíz"
+    ],
+    [
+      "df2cb437-ed1b-425a-abcf-6997f077f0f9",
+      "Power"
+    ],
+    [
+      "b6a4d967-b3aa-4b5c-a3fd-3675ad6e05ec",
+      "Connectors"
+    ],
+    [
+      "b100cd7e-168e-400b-b229-504b7bfa854d",
+      "FTDI USB Controller"
+    ],
+    [
+      "2246a9ee-5659-49ee-b5ee-c79e38846a79",
+      "IO Devices"
+    ],
+    [
+      "79b2db60-ab3f-4b1c-9160-e735db7b00f9",
+      "ECP5 IO Ports"
+    ],
+    [
+      "4ad2dfa8-2810-4fd3-b282-045d05546864",
+      "ECP5 Connections"
     ]
   ],
   "text_variables": {}
