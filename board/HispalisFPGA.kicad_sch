@@ -75,7 +75,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "4ad2dfa8-2810-4fd3-b282-045d05546864")
-		(property "Sheetname" "ECP5 Connections"
+		(property "Sheetname" "ECP5 Aux Connections"
 			(at 120.65 185.9784 0)
 			(effects
 				(font
@@ -84,7 +84,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ecp5-connections.kicad_sch"
+		(property "Sheetfile" "ecp5-aux-connections.kicad_sch"
 			(at 120.65 234.2646 0)
 			(effects
 				(font

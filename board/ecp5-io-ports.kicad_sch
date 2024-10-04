@@ -141,7 +141,7 @@
 				)
 			)
 		)
-		(symbol "FPGA_Lattice:LFE5UM-85F-6BG381x"
+		(symbol "FPGA_Lattice:LFE5U-85F-8BG381x"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -154,7 +154,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LFE5UM-85F-6BG381x"
+			(property "Value" "LFE5U-85F-8BG381x"
 				(at 24.13 13.97 0)
 				(effects
 					(font
@@ -181,7 +181,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "ECP5 FPGA, 84K LUTs, 1.2V, 3.2Gbps SERDES, BGA-381"
+			(property "Description" "ECP5 FPGA, 84K LUTs, 1.2V, BGA-381"
 				(at 0 0 0)
 				(effects
 					(font
@@ -216,7 +216,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LFE5UM-85F-6BG381x_1_1"
+			(symbol "LFE5U-85F-8BG381x_1_1"
 				(rectangle
 					(start -25.4 10.16)
 					(end 25.4 -10.16)
@@ -1722,10 +1722,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -15.24 15.24 270)
-					(length 5.08)
-					(name "VCCHTX1_D0CH1"
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1740,10 +1740,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -12.7 15.24 270)
-					(length 5.08)
-					(name "VCCHTX0_D1CH0"
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1758,10 +1758,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -10.16 15.24 270)
-					(length 5.08)
-					(name "VCCHRX0_D1CH0"
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1776,10 +1776,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -7.62 15.24 270)
-					(length 5.08)
-					(name "VCCHRX1_D1CH1"
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1794,10 +1794,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -5.08 15.24 270)
-					(length 5.08)
-					(name "VCCHTX1_D1CH1"
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1812,10 +1812,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 20.32 15.24 270)
-					(length 5.08)
-					(name "VCCA1"
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1830,10 +1830,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 17.78 15.24 270)
-					(length 5.08)
-					(name "VCCA0"
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1848,10 +1848,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -22.86 15.24 270)
-					(length 5.08)
-					(name "VCCHTX0_D0CH0"
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1866,10 +1866,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -20.32 15.24 270)
-					(length 5.08)
-					(name "VCCHRX0_D0CH0"
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1884,10 +1884,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -17.78 15.24 270)
-					(length 5.08)
-					(name "VCCHRX1_D0CH1"
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1993,9 +1993,9 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 15.24 270)
+					(at 0 -15.24 90)
 					(length 5.08) hide
-					(name "VCCA1"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2011,9 +2011,9 @@
 					)
 				)
 				(pin passive line
-					(at 17.78 15.24 270)
+					(at 0 -15.24 90)
 					(length 5.08) hide
-					(name "VCCA0"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2083,9 +2083,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 15.24 270)
+					(at 0 -15.24 90)
 					(length 5.08) hide
-					(name "VCCAUXA0"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2100,10 +2100,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 15.24 270)
-					(length 5.08)
-					(name "VCCAUXA0"
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2209,9 +2209,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at 0 -15.24 90)
 					(length 5.08) hide
-					(name "VCCAUXA1"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2226,10 +2226,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 7.62 15.24 270)
-					(length 5.08)
-					(name "VCCAUXA1"
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2388,6 +2388,42 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 25.4 -5.08 180)
+					(length 5.08) hide
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "W13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 25.4 -2.54 180)
+					(length 5.08) hide
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "W14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 0 -15.24 90)
 					(length 5.08) hide
@@ -2424,6 +2460,42 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 25.4 0 180)
+					(length 5.08) hide
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "W17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 25.4 2.54 180)
+					(length 5.08) hide
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "W18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 0 -15.24 90)
 					(length 5.08) hide
@@ -2435,6 +2507,60 @@
 						)
 					)
 					(number "W19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "W20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -25.4 2.54 0)
+					(length 5.08) hide
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "W4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -25.4 0 0)
+					(length 5.08) hide
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "W5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2478,8 +2604,242 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at -25.4 -2.54 0)
+					(length 5.08) hide
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "W8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -25.4 -5.08 0)
+					(length 5.08) hide
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "W9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Y11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Y12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Y14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Y15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Y16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Y17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Y19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Y5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Y6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Y7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Y8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
-			(symbol "LFE5UM-85F-6BG381x_2_1"
+			(symbol "LFE5U-85F-8BG381x_2_1"
 				(rectangle
 					(start -5.08 40.64)
 					(end 5.08 -40.64)
@@ -3014,7 +3374,7 @@
 					)
 				)
 			)
-			(symbol "LFE5UM-85F-6BG381x_3_1"
+			(symbol "LFE5U-85F-8BG381x_3_1"
 				(rectangle
 					(start -5.08 48.26)
 					(end 5.08 -48.26)
@@ -3657,7 +4017,7 @@
 					)
 				)
 			)
-			(symbol "LFE5UM-85F-6BG381x_4_1"
+			(symbol "LFE5U-85F-8BG381x_4_1"
 				(rectangle
 					(start -5.08 48.26)
 					(end 5.08 -48.26)
@@ -4336,7 +4696,7 @@
 					)
 				)
 			)
-			(symbol "LFE5UM-85F-6BG381x_5_1"
+			(symbol "LFE5U-85F-8BG381x_5_1"
 				(rectangle
 					(start -5.08 48.26)
 					(end 5.08 -48.26)
@@ -4997,7 +5357,7 @@
 					)
 				)
 			)
-			(symbol "LFE5UM-85F-6BG381x_6_1"
+			(symbol "LFE5U-85F-8BG381x_6_1"
 				(rectangle
 					(start -5.08 48.26)
 					(end 5.08 -48.26)
@@ -5658,7 +6018,7 @@
 					)
 				)
 			)
-			(symbol "LFE5UM-85F-6BG381x_7_1"
+			(symbol "LFE5U-85F-8BG381x_7_1"
 				(rectangle
 					(start -5.08 45.72)
 					(end 5.08 -45.72)
@@ -6301,7 +6661,7 @@
 					)
 				)
 			)
-			(symbol "LFE5UM-85F-6BG381x_8_1"
+			(symbol "LFE5U-85F-8BG381x_8_1"
 				(rectangle
 					(start -5.08 22.86)
 					(end 5.08 -22.86)
@@ -6584,7 +6944,7 @@
 					)
 				)
 			)
-			(symbol "LFE5UM-85F-6BG381x_9_1"
+			(symbol "LFE5U-85F-8BG381x_9_1"
 				(rectangle
 					(start -10.16 12.7)
 					(end 10.16 -12.7)
@@ -6823,392 +7183,6 @@
 						)
 					)
 					(number "Y3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LFE5UM-85F-6BG381x_10_1"
-				(rectangle
-					(start -10.16 17.78)
-					(end 10.16 -17.78)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output line
-					(at -15.24 15.24 0)
-					(length 5.08)
-					(name "HDTXP0_D0CH0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "W4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -15.24 12.7 0)
-					(length 5.08)
-					(name "HDTXN0_D0CH0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "W5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -15.24 2.54 0)
-					(length 5.08)
-					(name "HDTXP0_D0CH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "W8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -15.24 0 0)
-					(length 5.08)
-					(name "HDTXN0_D0CH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "W9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -10.16 0)
-					(length 5.08)
-					(name "REFCLKP_D0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "Y11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -12.7 0)
-					(length 5.08)
-					(name "REFCLKN_D0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "Y12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 10.16 0)
-					(length 5.08)
-					(name "HDRXP0_D0CH0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "Y5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 7.62 0)
-					(length 5.08)
-					(name "HDRXN0_D0CH0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "Y6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -2.54 0)
-					(length 5.08)
-					(name "HDRXP0_D0CH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "Y7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -5.08 0)
-					(length 5.08)
-					(name "HDRXN0_D0CH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "Y8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LFE5UM-85F-6BG381x_11_1"
-				(rectangle
-					(start -10.16 17.78)
-					(end 10.16 -17.78)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output line
-					(at -15.24 15.24 0)
-					(length 5.08)
-					(name "HDTXP0_D1CH0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "W13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -15.24 12.7 0)
-					(length 5.08)
-					(name "HDTXN0_D1CH0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "W14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -15.24 2.54 0)
-					(length 5.08)
-					(name "HDTXP0_D1CH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "W17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -15.24 0 0)
-					(length 5.08)
-					(name "HDTXN0_D1CH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "W18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -12.7 0)
-					(length 5.08)
-					(name "REFCLKN_D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "W20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 10.16 0)
-					(length 5.08)
-					(name "HDRXP0_D1CH0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "Y14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 7.62 0)
-					(length 5.08)
-					(name "HDRXN0_D1CH0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "Y15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -2.54 0)
-					(length 5.08)
-					(name "HDRXP0_D1CH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "Y16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -5.08 0)
-					(length 5.08)
-					(name "HDRXN0_D1CH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "Y17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -10.16 0)
-					(length 5.08)
-					(name "REFCLKP_D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "Y19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7548,6 +7522,10 @@
 	(no_connect
 		(at 162.56 107.95)
 		(uuid "00abedae-303d-4c3c-96b9-f689b4eb8a0b")
+	)
+	(no_connect
+		(at 162.56 120.65)
+		(uuid "01aed137-fdfe-46ea-b2a1-5af2c015fc51")
 	)
 	(no_connect
 		(at 116.84 49.53)
@@ -7942,12 +7920,20 @@
 		(uuid "c9536fd9-974f-41b3-93df-cd6a29fa53c0")
 	)
 	(no_connect
+		(at 162.56 105.41)
+		(uuid "ca9e2cd4-4e3b-4e93-a0e8-cb8bc941d22c")
+	)
+	(no_connect
 		(at 67.31 54.61)
 		(uuid "cacb23ce-4ddf-4d29-92e2-9b17a8b64f81")
 	)
 	(no_connect
 		(at 162.56 54.61)
 		(uuid "cec5f971-dbb2-4759-b4f7-7c5be4946f5f")
+	)
+	(no_connect
+		(at 162.56 118.11)
+		(uuid "d0de4db4-eb14-40eb-8775-16e8cda5ad5c")
 	)
 	(no_connect
 		(at 67.31 80.01)
@@ -8020,6 +8006,10 @@
 	(no_connect
 		(at 133.35 160.02)
 		(uuid "f199f7e9-e452-4a51-835e-fe1757cbc1cd")
+	)
+	(no_connect
+		(at 162.56 113.03)
+		(uuid "f453af9d-0b93-4051-b2e7-0a43283a5104")
 	)
 	(no_connect
 		(at 22.86 49.53)
@@ -9973,7 +9963,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03bfe5ee-4b5c-46e2-99b1-857215bde1a5")
-		(property "Reference" "C44"
+		(property "Reference" "C38"
 			(at 65.024 148.082 0)
 			(effects
 				(font
@@ -10045,7 +10035,7 @@
 		(instances
 			(project "HispalisFPGA"
 				(path "/864346d0-d3ef-428e-a44f-9476f195db98/79b2db60-ab3f-4b1c-9160-e735db7b00f9"
-					(reference "C44")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -10060,7 +10050,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07e0e7ae-f318-491d-b48e-606ffb74ddcd")
-		(property "Reference" "C49"
+		(property "Reference" "C43"
 			(at 183.134 35.052 0)
 			(effects
 				(font
@@ -10132,14 +10122,14 @@
 		(instances
 			(project "HispalisFPGA"
 				(path "/864346d0-d3ef-428e-a44f-9476f195db98/79b2db60-ab3f-4b1c-9160-e735db7b00f9"
-					(reference "C49")
+					(reference "C43")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FPGA_Lattice:LFE5UM-85F-6BG381x")
+		(lib_id "FPGA_Lattice:LFE5U-85F-8BG381x")
 		(at 77.47 82.55 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -10157,7 +10147,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LFE5UM-381"
+		(property "Value" "LFE5U-25F"
 			(at 83.82 83.8199 0)
 			(effects
 				(font
@@ -10184,7 +10174,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ECP5 FPGA, 84K LUTs, 1.2V, 3.2Gbps SERDES, BGA-381"
+		(property "Description" "ECP5 FPGA, 84K LUTs, 1.2V, BGA-381"
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "CABGA-381"
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1550939"
 			(at 77.47 82.55 0)
 			(effects
 				(font
@@ -11346,7 +11354,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FPGA_Lattice:LFE5UM-85F-6BG381x")
+		(lib_id "FPGA_Lattice:LFE5U-85F-8BG381x")
 		(at 92.71 193.04 0)
 		(unit 7)
 		(exclude_from_sim no)
@@ -11364,7 +11372,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LFE5UM-381"
+		(property "Value" "LFE5U-25F"
 			(at 99.06 194.3099 0)
 			(effects
 				(font
@@ -11391,7 +11399,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ECP5 FPGA, 84K LUTs, 1.2V, 3.2Gbps SERDES, BGA-381"
+		(property "Description" "ECP5 FPGA, 84K LUTs, 1.2V, BGA-381"
+			(at 92.71 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "CABGA-381"
+			(at 92.71 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1550939"
 			(at 92.71 193.04 0)
 			(effects
 				(font
@@ -12553,7 +12579,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FPGA_Lattice:LFE5UM-85F-6BG381x")
+		(lib_id "FPGA_Lattice:LFE5U-85F-8BG381x")
 		(at 46.99 195.58 0)
 		(unit 6)
 		(exclude_from_sim no)
@@ -12571,7 +12597,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LFE5UM-381"
+		(property "Value" "LFE5U-25F"
 			(at 53.34 196.8499 0)
 			(effects
 				(font
@@ -12598,7 +12624,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ECP5 FPGA, 84K LUTs, 1.2V, 3.2Gbps SERDES, BGA-381"
+		(property "Description" "ECP5 FPGA, 84K LUTs, 1.2V, BGA-381"
+			(at 46.99 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "CABGA-381"
+			(at 46.99 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1550939"
 			(at 46.99 195.58 0)
 			(effects
 				(font
@@ -13768,7 +13812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46f5de07-8c15-4fda-abdc-182b2c95cd79")
-		(property "Reference" "C43"
+		(property "Reference" "C37"
 			(at 57.404 148.082 0)
 			(effects
 				(font
@@ -13840,14 +13884,14 @@
 		(instances
 			(project "HispalisFPGA"
 				(path "/864346d0-d3ef-428e-a44f-9476f195db98/79b2db60-ab3f-4b1c-9160-e735db7b00f9"
-					(reference "C43")
+					(reference "C37")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FPGA_Lattice:LFE5UM-85F-6BG381x")
+		(lib_id "FPGA_Lattice:LFE5U-85F-8BG381x")
 		(at 127 82.55 0)
 		(unit 4)
 		(exclude_from_sim no)
@@ -13865,7 +13909,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LFE5UM-381"
+		(property "Value" "LFE5U-25F"
 			(at 133.35 83.8199 0)
 			(effects
 				(font
@@ -13892,7 +13936,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ECP5 FPGA, 84K LUTs, 1.2V, 3.2Gbps SERDES, BGA-381"
+		(property "Description" "ECP5 FPGA, 84K LUTs, 1.2V, BGA-381"
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "CABGA-381"
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1550939"
 			(at 127 82.55 0)
 			(effects
 				(font
@@ -15062,7 +15124,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "613bf7d1-8e50-4994-88ed-e63124415421")
-		(property "Reference" "C46"
+		(property "Reference" "C40"
 			(at 110.744 148.082 0)
 			(effects
 				(font
@@ -15134,7 +15196,7 @@
 		(instances
 			(project "HispalisFPGA"
 				(path "/864346d0-d3ef-428e-a44f-9476f195db98/79b2db60-ab3f-4b1c-9160-e735db7b00f9"
-					(reference "C46")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -15474,7 +15536,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d189313f-e286-4617-b746-0b2b06b6cce4")
-		(property "Reference" "C47"
+		(property "Reference" "C41"
 			(at 153.924 148.082 0)
 			(effects
 				(font
@@ -15546,7 +15608,7 @@
 		(instances
 			(project "HispalisFPGA"
 				(path "/864346d0-d3ef-428e-a44f-9476f195db98/79b2db60-ab3f-4b1c-9160-e735db7b00f9"
-					(reference "C47")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -15561,7 +15623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d22042a0-3c02-4cdb-9ec4-fa1fd149778f")
-		(property "Reference" "C48"
+		(property "Reference" "C42"
 			(at 161.544 148.082 0)
 			(effects
 				(font
@@ -15633,7 +15695,7 @@
 		(instances
 			(project "HispalisFPGA"
 				(path "/864346d0-d3ef-428e-a44f-9476f195db98/79b2db60-ab3f-4b1c-9160-e735db7b00f9"
-					(reference "C48")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -15648,7 +15710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7bf2dea-5667-4c6d-abaf-05adeb53781c")
-		(property "Reference" "C45"
+		(property "Reference" "C39"
 			(at 103.124 148.082 0)
 			(effects
 				(font
@@ -15720,14 +15782,14 @@
 		(instances
 			(project "HispalisFPGA"
 				(path "/864346d0-d3ef-428e-a44f-9476f195db98/79b2db60-ab3f-4b1c-9160-e735db7b00f9"
-					(reference "C45")
+					(reference "C39")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FPGA_Lattice:LFE5UM-85F-6BG381x")
+		(lib_id "FPGA_Lattice:LFE5U-85F-8BG381x")
 		(at 33.02 74.93 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -15745,7 +15807,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LFE5UM-381"
+		(property "Value" "LFE5U-25F"
 			(at 39.37 76.1999 0)
 			(effects
 				(font
@@ -15772,7 +15834,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ECP5 FPGA, 84K LUTs, 1.2V, 3.2Gbps SERDES, BGA-381"
+		(property "Description" "ECP5 FPGA, 84K LUTs, 1.2V, BGA-381"
+			(at 33.02 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "CABGA-381"
+			(at 33.02 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1550939"
 			(at 33.02 74.93 0)
 			(effects
 				(font
@@ -16934,7 +17014,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FPGA_Lattice:LFE5UM-85F-6BG381x")
+		(lib_id "FPGA_Lattice:LFE5U-85F-8BG381x")
 		(at 172.72 82.55 0)
 		(unit 5)
 		(exclude_from_sim no)
@@ -16952,7 +17032,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LFE5UM-381"
+		(property "Value" "LFE5U-25F"
 			(at 179.07 83.8199 0)
 			(effects
 				(font
@@ -16979,7 +17059,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ECP5 FPGA, 84K LUTs, 1.2V, 3.2Gbps SERDES, BGA-381"
+		(property "Description" "ECP5 FPGA, 84K LUTs, 1.2V, BGA-381"
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "CABGA-381"
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1550939"
 			(at 172.72 82.55 0)
 			(effects
 				(font
@@ -18141,7 +18239,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FPGA_Lattice:LFE5UM-85F-6BG381x")
+		(lib_id "FPGA_Lattice:LFE5U-85F-8BG381x")
 		(at 143.51 170.18 0)
 		(unit 8)
 		(exclude_from_sim no)
@@ -18159,7 +18257,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LFE5UM-381"
+		(property "Value" "LFE5U-25F"
 			(at 149.86 171.4499 0)
 			(effects
 				(font
@@ -18186,7 +18284,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ECP5 FPGA, 84K LUTs, 1.2V, 3.2Gbps SERDES, BGA-381"
+		(property "Description" "ECP5 FPGA, 84K LUTs, 1.2V, BGA-381"
+			(at 143.51 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "CABGA-381"
+			(at 143.51 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1550939"
 			(at 143.51 170.18 0)
 			(effects
 				(font
@@ -19356,7 +19472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6c93604-4fb4-4d8e-9655-1cf68af6edd6")
-		(property "Reference" "C50"
+		(property "Reference" "C44"
 			(at 190.754 35.052 0)
 			(effects
 				(font
@@ -19428,7 +19544,7 @@
 		(instances
 			(project "HispalisFPGA"
 				(path "/864346d0-d3ef-428e-a44f-9476f195db98/79b2db60-ab3f-4b1c-9160-e735db7b00f9"
-					(reference "C50")
+					(reference "C44")
 					(unit 1)
 				)
 			)
