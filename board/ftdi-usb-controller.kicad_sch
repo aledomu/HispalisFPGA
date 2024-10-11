@@ -2138,7 +2138,7 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -2155,7 +2155,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -2181,7 +2181,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2199,7 +2199,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2237,7 +2237,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -4148,6 +4148,75 @@
 			)
 		)
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 90.17 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b2a18a3-87c1-4a6c-89d0-381f8ccf0d18")
+		(property "Netclass" "Power"
+			(at 90.7796 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 72.39 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bce51f30-30a1-4153-890f-f975f57e78c2")
+		(property "Netclass" "Power"
+			(at 72.9996 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 72.39 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4fa86d0-c2b0-4f5c-9eef-2fe964f8bb26")
+		(property "Netclass" "Power"
+			(at 72.9996 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 73.66 152.4 0)
@@ -4385,6 +4454,138 @@
 			(project "HispalisFPGA"
 				(path "/864346d0-d3ef-428e-a44f-9476f195db98/b100cd7e-168e-400b-b229-504b7bfa854d"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 93.98 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fb21737-31dd-4b97-ac0d-8f26c05be7c4")
+		(property "Reference" "#PWR043"
+			(at 93.98 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 93.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 93.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26e107ff-abe3-43c5-9870-ec928e7ae280")
+		)
+		(instances
+			(project "HispalisFPGA"
+				(path "/864346d0-d3ef-428e-a44f-9476f195db98/b100cd7e-168e-400b-b229-504b7bfa854d"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 48.26 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "101f57d2-9948-49d6-b45a-675fd7303583")
+		(property "Reference" "#PWR039"
+			(at 48.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 48.26 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 48.26 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce59832c-7279-4d87-8fcc-433c4fd279a8")
+		)
+		(instances
+			(project "HispalisFPGA"
+				(path "/864346d0-d3ef-428e-a44f-9476f195db98/b100cd7e-168e-400b-b229-504b7bfa854d"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -5051,72 +5252,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 48.26 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "628eaf2c-cd7e-44bd-86f9-ef132664b41a")
-		(property "Reference" "#PWR040"
-			(at 48.26 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 48.26 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 48.26 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15bc58a9-7f19-4934-ad28-2cad8991758f")
-		)
-		(instances
-			(project "HispalisFPGA"
-				(path "/864346d0-d3ef-428e-a44f-9476f195db98/b100cd7e-168e-400b-b229-504b7bfa854d"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Memory_EEPROM:93LCxxB")
 		(at 48.26 180.34 0)
 		(unit 1)
@@ -5543,73 +5678,6 @@
 			(project "HispalisFPGA"
 				(path "/864346d0-d3ef-428e-a44f-9476f195db98/b100cd7e-168e-400b-b229-504b7bfa854d"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 86.36 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85b2cb34-9725-4975-b51e-839b8d97b3ff")
-		(property "Reference" "#PWR043"
-			(at 90.17 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 82.55 149.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 86.36 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48a3cde3-4688-45f4-bac4-cfce59e5156f")
-		)
-		(instances
-			(project "HispalisFPGA"
-				(path "/864346d0-d3ef-428e-a44f-9476f195db98/b100cd7e-168e-400b-b229-504b7bfa854d"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6293,7 +6361,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 38.1 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6301,8 +6369,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bcbe908a-3ccb-4f81-9d53-25bb9d99b2f4")
-		(property "Reference" "#PWR039"
+		(uuid "ba05d396-eef9-4cc2-b890-a0d9a25c312c")
+		(property "Reference" "#PWR076"
 			(at 38.1 67.31 0)
 			(effects
 				(font
@@ -6311,7 +6379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 38.1 58.42 0)
 			(effects
 				(font
@@ -6337,7 +6405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 38.1 63.5 0)
 			(effects
 				(font
@@ -6347,12 +6415,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ad9ed3f-f6a1-4379-ad6b-a5e9fc6fb97c")
+			(uuid "dfef219b-3017-41f6-a699-42e26d9fc10a")
 		)
 		(instances
-			(project "HispalisFPGA"
+			(project ""
 				(path "/864346d0-d3ef-428e-a44f-9476f195db98/b100cd7e-168e-400b-b229-504b7bfa854d"
-					(reference "#PWR039")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -6987,6 +7055,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 86.36 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2e76f75-26b9-4d11-ab65-cc5d1ab1d240")
+		(property "Reference" "#PWR040"
+			(at 90.17 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 82.55 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 86.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89cbe6ca-1fef-44b0-a0de-b05c8b5113e7")
+		)
+		(instances
+			(project "HispalisFPGA"
+				(path "/864346d0-d3ef-428e-a44f-9476f195db98/b100cd7e-168e-400b-b229-504b7bfa854d"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 66.04 182.88 90)
 		(mirror x)
@@ -7067,72 +7202,6 @@
 			(project "HispalisFPGA"
 				(path "/864346d0-d3ef-428e-a44f-9476f195db98/b100cd7e-168e-400b-b229-504b7bfa854d"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 93.98 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6f7d65e-a2ef-4cc7-9877-7cb44277b676")
-		(property "Reference" "#PWR045"
-			(at 93.98 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 93.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 93.98 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4051072-2cfa-487b-b022-1f4d0165c6a3")
-		)
-		(instances
-			(project "HispalisFPGA"
-				(path "/864346d0-d3ef-428e-a44f-9476f195db98/b100cd7e-168e-400b-b229-504b7bfa854d"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)

@@ -481,7 +481,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.2,
-        "name": "PWR",
+        "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
@@ -494,21 +494,21 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "PWR",
-        "pattern": "+*"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "FPGA_PWR"
-      }
-    ]
+    "netclass_assignments": {
+      "+1V1": "Power",
+      "+2V5": "Power",
+      "+3V3": "Power",
+      "+5V": "Power",
+      "GND": "Power",
+      "Net-(ESD1-A2)": "Power",
+      "Net-(J1-SHIELD)": "Power",
+      "Net-(SW_REG2-SW)": "Power",
+      "Net-(SW_REG2-VBST)": "Power",
+      "Net-(U2-VPHY)": "Power",
+      "Net-(U2-VPLL)": "Power",
+      "Net-(U2-VREGOUT)": "Power"
+    },
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {

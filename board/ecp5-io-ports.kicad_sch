@@ -7604,6 +7604,10 @@
 		(uuid "274a27e1-1169-4e57-ae60-39dd8a4303ce")
 	)
 	(no_connect
+		(at 36.83 213.36)
+		(uuid "2b065eb5-7bf7-4e3d-aab3-6de4d384d8ac")
+	)
+	(no_connect
 		(at 82.55 198.12)
 		(uuid "2bd7439b-54d1-44e6-8611-8ae49b8f4c87")
 	)
@@ -7920,10 +7924,6 @@
 		(uuid "c9536fd9-974f-41b3-93df-cd6a29fa53c0")
 	)
 	(no_connect
-		(at 162.56 105.41)
-		(uuid "ca9e2cd4-4e3b-4e93-a0e8-cb8bc941d22c")
-	)
-	(no_connect
 		(at 67.31 54.61)
 		(uuid "cacb23ce-4ddf-4d29-92e2-9b17a8b64f81")
 	)
@@ -8008,10 +8008,6 @@
 		(uuid "f199f7e9-e452-4a51-835e-fe1757cbc1cd")
 	)
 	(no_connect
-		(at 162.56 113.03)
-		(uuid "f453af9d-0b93-4051-b2e7-0a43283a5104")
-	)
-	(no_connect
 		(at 22.86 49.53)
 		(uuid "f511b375-3cc6-43d7-9933-37f218afa74c")
 	)
@@ -8034,6 +8030,10 @@
 	(no_connect
 		(at 116.84 77.47)
 		(uuid "fb625bf0-0ab7-44b2-9031-7f15d5ec2f91")
+	)
+	(no_connect
+		(at 36.83 210.82)
+		(uuid "ff57be9b-20a1-47b2-b6ea-f3a62d51a0d1")
 	)
 	(wire
 		(pts
@@ -8709,28 +8709,6 @@
 			)
 		)
 	)
-	(global_label "RXD_UART"
-		(shape input)
-		(at 36.83 213.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "354cd0d1-730b-451a-a530-f9af98c3b0c5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.1252 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IO2"
 		(shape input)
 		(at 133.35 170.18 180)
@@ -8771,9 +8749,9 @@
 			)
 		)
 	)
-	(global_label "TXD_UART"
+	(global_label "RXD_UART"
 		(shape input)
-		(at 36.83 210.82 180)
+		(at 162.56 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8781,9 +8759,9 @@
 			)
 			(justify right)
 		)
-		(uuid "40e209a1-f972-4a35-8523-83f65493468e")
+		(uuid "3ebaf2ad-b9c6-4d8d-824f-c32d8043ce4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4276 210.82 0)
+			(at 150.8552 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9069,6 +9047,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TXD_UART"
+		(shape input)
+		(at 162.56 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69eeb4dd-563b-49bd-93da-994faaf0378f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.1576 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
