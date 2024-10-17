@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.4,
+          "width": 0.4
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.4
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|93175000|109467500|9a036d2e-c8fc-47cd-a4ca-8b411b1edc94|2d6267da-c316-47ae-9404-bec7fba5c079",
+        "hole_clearance|93175000|109467500|b805b9e7-87b3-41d7-9bdf-4cb2eb77d408|2d6267da-c316-47ae-9404-bec7fba5c079",
+        "hole_clearance|99275000|109467500|73d97c86-0f32-47ff-8f09-db8fa91c91ae|5fe26421-1c24-4ecd-b0c9-9b3df7684d64",
+        "hole_clearance|99275000|109467500|8d4e1834-a50d-480f-b125-5e5c4ed4188d|5fe26421-1c24-4ecd-b0c9-9b3df7684d64"
+      ],
       "meta": {
         "version": 2
       },
@@ -129,7 +134,7 @@
         "min_text_thickness": 0.153,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.13,
+        "min_via_annular_width": 0.1,
         "min_via_diameter": 0.25,
         "solder_mask_clearance": 0.05,
         "solder_mask_min_width": 0.0,
@@ -463,13 +468,13 @@
         "diff_pair_width": 0.1,
         "line_style": 0,
         "microvia_diameter": 0.3,
-        "microvia_drill": 0.2,
+        "microvia_drill": 0.15,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "via_diameter": 0.4,
-        "via_drill": 0.2,
+        "via_drill": 0.15,
         "wire_width": 6
       },
       {
@@ -480,13 +485,13 @@
         "diff_pair_width": 0.1,
         "line_style": 0,
         "microvia_diameter": 0.3,
-        "microvia_drill": 0.2,
+        "microvia_drill": 0.15,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
-        "via_diameter": 0.6,
-        "via_drill": 0.4,
+        "via_diameter": 0.4,
+        "via_drill": 0.15,
         "wire_width": 6
       }
     ],
