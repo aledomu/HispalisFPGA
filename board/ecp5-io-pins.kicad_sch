@@ -5,7 +5,7 @@
 	(uuid "31622dd0-ae4f-4f62-90c0-a345c5d9b1ea")
 	(paper "A4" portrait)
 	(title_block
-		(title "HispalisFPGA FPGA I/O Connections")
+		(title "HispalisFPGA ECP5 I/O Pins")
 		(date "2024-10-21")
 		(rev "A")
 		(company "Alejandro Domínguez Muñoz")

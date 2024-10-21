@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "864346d0-d3ef-428e-a44f-9476f195db98")
 	(paper "A4" portrait)
+	(title_block
+		(title "HispalisFPGA Schematic Parts")
+		(date "2024-10-21")
+		(rev "A")
+		(company "Alejandro Domínguez Muñoz")
+	)
 	(lib_symbols)
 	(polyline
 		(pts
@@ -37,7 +43,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2246a9ee-5659-49ee-b5ee-c79e38846a79")
-		(property "Sheetname" "IO Devices"
+		(property "Sheetname" "Onboard Devices"
 			(at 120.65 109.7784 0)
 			(effects
 				(font
@@ -46,7 +52,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "io-devices.kicad_sch"
+		(property "Sheetfile" "onboard-devices.kicad_sch"
 			(at 120.65 159.3346 0)
 			(effects
 				(font
@@ -75,7 +81,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "4ad2dfa8-2810-4fd3-b282-045d05546864")
-		(property "Sheetname" "ECP5 Aux Connections"
+		(property "Sheetname" "ECP5 Clock and Programming"
 			(at 120.65 185.9784 0)
 			(effects
 				(font
@@ -84,7 +90,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ecp5-aux-connections.kicad_sch"
+		(property "Sheetfile" "ecp5-clock-and-programming.kicad_sch"
 			(at 120.65 234.2646 0)
 			(effects
 				(font
@@ -113,7 +119,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "79b2db60-ab3f-4b1c-9160-e735db7b00f9")
-		(property "Sheetname" "ECP5 IO Ports"
+		(property "Sheetname" "ECP5 IO Pins"
 			(at 29.21 185.9784 0)
 			(effects
 				(font
@@ -122,7 +128,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ecp5-io-ports.kicad_sch"
+		(property "Sheetfile" "ecp5-io-pins.kicad_sch"
 			(at 29.21 234.2646 0)
 			(effects
 				(font
@@ -189,7 +195,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b6a4d967-b3aa-4b5c-a3fd-3675ad6e05ec")
-		(property "Sheetname" "Connectors"
+		(property "Sheetname" "Ports"
 			(at 120.65 32.3084 0)
 			(effects
 				(font
@@ -198,7 +204,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "connectors.kicad_sch"
+		(property "Sheetfile" "ports.kicad_sch"
 			(at 120.65 81.8646 0)
 			(effects
 				(font

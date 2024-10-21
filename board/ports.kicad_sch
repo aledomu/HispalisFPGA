@@ -5,7 +5,7 @@
 	(uuid "cc82a16a-2aa0-44c6-84e2-cbc7596fe80a")
 	(paper "A4" portrait)
 	(title_block
-		(title "HispalisFPGA - Ports")
+		(title "HispalisFPGA Ports")
 		(date "2024-10-21")
 		(rev "A")
 		(company "Alejandro Domínguez Muñoz")

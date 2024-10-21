@@ -670,7 +670,7 @@
     ],
     [
       "b6a4d967-b3aa-4b5c-a3fd-3675ad6e05ec",
-      "Connectors"
+      "Ports"
     ],
     [
       "b100cd7e-168e-400b-b229-504b7bfa854d",
@@ -678,15 +678,15 @@
     ],
     [
       "2246a9ee-5659-49ee-b5ee-c79e38846a79",
-      "IO Devices"
+      "Onboard Devices"
     ],
     [
       "79b2db60-ab3f-4b1c-9160-e735db7b00f9",
-      "ECP5 IO Ports"
+      "ECP5 IO Pins"
     ],
     [
       "4ad2dfa8-2810-4fd3-b282-045d05546864",
-      "ECP5 Aux Connections"
+      "ECP5 Clock and Programming"
     ]
   ],
   "text_variables": {}
