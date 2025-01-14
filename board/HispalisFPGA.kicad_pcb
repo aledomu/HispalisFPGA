@@ -19341,15 +19341,15 @@
 			)
 		)
 	)
-	(footprint "HispalisFPGA:logo"
+	(footprint "HispalisFPGA:HispalisFPGA-Logo"
 		(layer "F.Cu")
 		(uuid "b4b4ec19-2409-442a-96d6-6542745c29c5")
 		(at 89.4 76.8)
-		(property "Reference" "LOGO1"
+		(property "Reference" "HISPALISFPGA-LOGO1"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e236f2fb-cd7d-462a-b42a-b924f41962af")
+			(uuid "cfebd017-32ab-4487-83bd-574c9349890b")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -19357,11 +19357,11 @@
 				)
 			)
 		)
-		(property "Value" "LOGO"
+		(property "Value" "HISPALISFPGA-LOGO"
 			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5a77aebd-e948-444a-92fd-14bf063e7813")
+			(uuid "8ac4ce5e-cf63-4afc-bbca-8d2d6959b794")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -19369,11 +19369,11 @@
 				)
 			)
 		)
-		(property "Footprint" "HispalisFPGA:logo"
+		(property "Footprint" "HispalisFPGA:HispalisFPGA-Logo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "233eeb64-bb78-4267-84f2-36bfddf9c560")
+			(uuid "33ac0bec-9eb2-4640-97af-b15f7025a8ff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19385,7 +19385,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cdd310f7-1d81-470c-b56c-ae419dc35f73")
+			(uuid "b3fe18df-ede2-43cf-8d9a-a4e6aead913c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19397,7 +19397,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fd314ed3-f1a0-45cb-91f2-99f05d7b7166")
+			(uuid "323daffc-42d2-4797-bf8e-d567b89a638c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19424,7 +19424,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "3c527a98-97bc-4c1c-8c3d-49f05ee0bbb4")
+			(uuid "8713add9-6df7-41d0-9fa9-1ea3e26c3baa")
 		)
 		(fp_poly
 			(pts
@@ -19446,7 +19446,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "b1fa8fb4-949d-402a-8848-5ec4b1432706")
+			(uuid "702337a5-d3e2-4014-a3cc-017e4a5f8439")
 		)
 		(fp_poly
 			(pts
@@ -19469,7 +19469,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "005ee360-ec03-46da-b9d4-a2fa264468e5")
+			(uuid "6f6d88aa-be04-468b-8645-afd891a73084")
 		)
 		(fp_poly
 			(pts
@@ -19492,7 +19492,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "7af42dac-3206-4bc0-b8d4-4f467cca7821")
+			(uuid "7269edab-38f3-4ccd-a047-81ed06d02aaf")
 		)
 		(fp_poly
 			(pts
@@ -19514,7 +19514,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "91e423eb-1ae1-458e-9691-a8fba5654522")
+			(uuid "5c220b27-d57d-4826-b339-7f3d3bdb4b1d")
 		)
 		(fp_poly
 			(pts
@@ -19541,7 +19541,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "6871cdbb-555e-46b9-874f-5d4f6a67c306")
+			(uuid "908b318a-e443-412e-b94a-f3350a3d4c5f")
 		)
 		(fp_poly
 			(pts
@@ -19577,7 +19577,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "97d2ec5c-6334-40b0-ae08-8d5205b30255")
+			(uuid "23bd028b-ddf5-4686-93c3-4dea1edfc92c")
 		)
 		(fp_poly
 			(pts
@@ -19630,7 +19630,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "cb9ecd7f-e43d-417d-b64a-d29c97852abe")
+			(uuid "874e07e8-9b89-4726-a9e0-41f4b517fa2e")
 		)
 		(fp_poly
 			(pts
@@ -19684,7 +19684,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "c9d17a90-b8b9-4e61-ab45-72b630841d0a")
+			(uuid "afa289f5-ba6a-4f8a-98a1-d1414bb77c69")
 		)
 		(fp_poly
 			(pts
@@ -19739,7 +19739,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "9e2c9e40-2ece-4ff4-8771-70175e600cb9")
+			(uuid "8829ba98-9cfe-4cf9-b10a-40258e73550c")
 		)
 		(fp_poly
 			(pts
@@ -19792,7 +19792,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "b7ad9ffb-d8c0-4d9c-bce3-92575d89a282")
+			(uuid "3d595233-8396-4bbf-abfb-abc2acfba644")
 		)
 		(fp_poly
 			(pts
@@ -19859,7 +19859,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "e32b9ff2-5d01-489d-8fee-027061e6651a")
+			(uuid "017c6d48-64f6-4567-b71e-0049f05ea10e")
 		)
 		(fp_poly
 			(pts
@@ -20026,7 +20026,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "732f7579-03f0-4599-8ef8-feae11580316")
+			(uuid "c5658bd2-9385-42fb-9074-d2b56d55f7e2")
 		)
 	)
 	(footprint "Button_Switch_THT:SW_PUSH_6mm"
