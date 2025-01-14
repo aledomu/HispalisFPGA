@@ -59,10 +59,6 @@
         }
       ],
       "drc_exclusions": [
-        "hole_clearance|59430000|69857500|4f36fb3d-498e-4cda-9d6d-96bfcc99217f|7e101bea-7649-449f-829b-16de9c5b29a5",
-        "hole_clearance|59430000|69857500|bb2c2d00-971e-4175-8cfd-e2767b6c986c|7e101bea-7649-449f-829b-16de9c5b29a5",
-        "hole_clearance|65530000|69857500|3ad1f8eb-3b81-4815-b5c2-9464e3626d60|186c55e1-acb4-4804-8972-31a9ebd6e3ce",
-        "hole_clearance|65530000|69857500|bdd41e23-1385-416f-97b2-61aa92969a08|186c55e1-acb4-4804-8972-31a9ebd6e3ce",
         "isolated_copper|70398039|110270185|4d777a2b-ef10-4bf9-a4d8-889b8884fba0|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
@@ -617,8 +613,8 @@
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Footprint"
+      "sort_asc": true,
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

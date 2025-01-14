@@ -7595,7 +7595,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -8.89 8.89 0)
+				(at -6.35 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7603,7 +7603,7 @@
 				)
 			)
 			(property "Value" "W25Q128JVS"
-				(at 7.62 8.89 0)
+				(at 7.62 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7611,7 +7611,7 @@
 				)
 			)
 			(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
-				(at 0 0 0)
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7619,8 +7619,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+				(at 0 25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7629,7 +7629,7 @@
 				)
 			)
 			(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
-				(at 0 0 0)
+				(at 0 27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7822,7 +7822,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "X"
+			(property "Reference" "Y"
 				(at -5.08 6.35 0)
 				(effects
 					(font
@@ -11331,7 +11331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
 			(at 58.42 175.26 0)
 			(effects
 				(font
@@ -12102,7 +12102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://abracon.com/datasheets/ASEDV.pdf"
+		(property "Datasheet" "http://www.abracon.com/Oscillators/ASV.pdf"
 			(at 146.05 176.53 0)
 			(effects
 				(font
@@ -12111,7 +12111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.6V~3.6V 4mA 16MHz CMOS SMD Crystal Clock Oscillator, Abracon"
+		(property "Description" "3.3V CMOS SMD Crystal Clock Oscillator, Abracon"
 			(at 148.59 176.53 0)
 			(effects
 				(font
