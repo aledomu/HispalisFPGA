@@ -36088,7 +36088,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLC" "WLCSP-20(1.6x2) "
+		(property "JLC" "TSOT-23-6"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36102,7 +36102,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C603207"
+		(property "LCSC" "C2650336"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")

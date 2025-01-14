@@ -15091,7 +15091,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "WLCSP-20(1.6x2) "
+		(property "JLC" "TSOT-23-6"
 			(at 106.68 49.53 0)
 			(effects
 				(font
@@ -15100,7 +15100,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C603207"
+		(property "LCSC" "C2650336"
 			(at 106.68 49.53 0)
 			(effects
 				(font
