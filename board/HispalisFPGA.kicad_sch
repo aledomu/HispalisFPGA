@@ -6,7 +6,7 @@
 	(paper "A4" portrait)
 	(title_block
 		(title "HispalisFPGA Schematic Parts")
-		(date "2024-10-21")
+		(date "2025-01-17")
 		(rev "A")
 		(company "Alejandro Domínguez Muñoz")
 	)
@@ -32,8 +32,8 @@
 		(uuid "7afef672-40a0-47f5-b22c-a813682433b4")
 	)
 	(sheet
-		(at 120.65 110.49)
-		(size 58.42 48.26)
+		(at 129.54 92.71)
+		(size 57.15 48.26)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -44,7 +44,7 @@
 		)
 		(uuid "2246a9ee-5659-49ee-b5ee-c79e38846a79")
 		(property "Sheetname" "Onboard Devices"
-			(at 120.65 109.7784 0)
+			(at 129.54 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,7 +53,7 @@
 			)
 		)
 		(property "Sheetfile" "onboard-devices.kicad_sch"
-			(at 120.65 159.3346 0)
+			(at 129.54 141.5546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70,8 +70,8 @@
 		)
 	)
 	(sheet
-		(at 120.65 186.69)
-		(size 59.69 46.99)
+		(at 22.86 228.6)
+		(size 57.15 46.99)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -82,7 +82,7 @@
 		)
 		(uuid "4ad2dfa8-2810-4fd3-b282-045d05546864")
 		(property "Sheetname" "ECP5 Clock and Programming"
-			(at 120.65 185.9784 0)
+			(at 22.86 227.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -91,7 +91,7 @@
 			)
 		)
 		(property "Sheetfile" "ecp5-clock-and-programming.kicad_sch"
-			(at 120.65 234.2646 0)
+			(at 22.86 276.1746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -102,13 +102,13 @@
 		(instances
 			(project "HispalisFPGA"
 				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
-					(page "7")
+					(page "8")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 29.21 186.69)
+		(at 22.86 161.29)
 		(size 57.15 46.99)
 		(fields_autoplaced yes)
 		(stroke
@@ -119,8 +119,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "79b2db60-ab3f-4b1c-9160-e735db7b00f9")
-		(property "Sheetname" "ECP5 IO Pins"
-			(at 29.21 185.9784 0)
+		(property "Sheetname" "ECP5 IO Pins 1"
+			(at 22.86 160.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -128,8 +128,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ecp5-io-pins.kicad_sch"
-			(at 29.21 234.2646 0)
+		(property "Sheetfile" "ecp5-io-pins-1.kicad_sch"
+			(at 22.86 208.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146,7 +146,45 @@
 		)
 	)
 	(sheet
-		(at 29.21 110.49)
+		(at 129.54 161.29)
+		(size 57.15 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8fcd5eeb-ffda-41ee-acba-d923b4c00eab")
+		(property "Sheetname" "ECP5 IO Pins 2"
+			(at 129.54 160.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ecp5-io-pins-2.kicad_sch"
+			(at 129.54 207.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HispalisFPGA"
+				(path "/864346d0-d3ef-428e-a44f-9476f195db98"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 92.71)
 		(size 57.15 48.26)
 		(fields_autoplaced yes)
 		(stroke
@@ -158,7 +196,7 @@
 		)
 		(uuid "b100cd7e-168e-400b-b229-504b7bfa854d")
 		(property "Sheetname" "FTDI USB Controller"
-			(at 29.21 109.7784 0)
+			(at 22.86 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -167,7 +205,7 @@
 			)
 		)
 		(property "Sheetfile" "ftdi-usb-controller.kicad_sch"
-			(at 29.21 159.3346 0)
+			(at 22.86 141.5546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -184,8 +222,8 @@
 		)
 	)
 	(sheet
-		(at 120.65 33.02)
-		(size 58.42 48.26)
+		(at 129.54 21.59)
+		(size 57.15 48.26)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -196,7 +234,7 @@
 		)
 		(uuid "b6a4d967-b3aa-4b5c-a3fd-3675ad6e05ec")
 		(property "Sheetname" "Ports"
-			(at 120.65 32.3084 0)
+			(at 129.54 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -205,7 +243,7 @@
 			)
 		)
 		(property "Sheetfile" "ports.kicad_sch"
-			(at 120.65 81.8646 0)
+			(at 129.54 70.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -222,7 +260,7 @@
 		)
 	)
 	(sheet
-		(at 29.21 33.02)
+		(at 22.86 21.59)
 		(size 57.15 48.26)
 		(fields_autoplaced yes)
 		(stroke
@@ -234,7 +272,7 @@
 		)
 		(uuid "df2cb437-ed1b-425a-abcf-6997f077f0f9")
 		(property "Sheetname" "Power"
-			(at 29.21 32.3084 0)
+			(at 22.86 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -243,7 +281,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 29.21 81.8646 0)
+			(at 22.86 70.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)

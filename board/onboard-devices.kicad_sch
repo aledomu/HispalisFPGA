@@ -6,7 +6,7 @@
 	(paper "A4" portrait)
 	(title_block
 		(title "HispalisFPGA Onboard Devices")
-		(date "2025-01-15")
+		(date "2025-01-17")
 		(rev "A")
 		(company "Alejandro Domínguez Muñoz")
 	)
@@ -8500,7 +8500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef50701e-db79-4a2b-97ab-ad7107d7cafc")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR063"
 			(at 148.59 50.8 0)
 			(effects
 				(font
@@ -8550,7 +8550,7 @@
 		(instances
 			(project "HispalisFPGA"
 				(path "/864346d0-d3ef-428e-a44f-9476f195db98/2246a9ee-5659-49ee-b5ee-c79e38846a79"
-					(reference "#PWR062")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -8566,7 +8566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f00beb82-3511-41eb-8704-8d60d0cd0ee7")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR062"
 			(at 147.32 236.22 0)
 			(effects
 				(font
@@ -8616,7 +8616,7 @@
 		(instances
 			(project "HispalisFPGA"
 				(path "/864346d0-d3ef-428e-a44f-9476f195db98/2246a9ee-5659-49ee-b5ee-c79e38846a79"
-					(reference "#PWR063")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)

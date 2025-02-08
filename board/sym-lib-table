@@ -1,3 +1,4 @@
 (sym_lib_table
   (version 7)
+  (lib (name "LFE5U-45F-7BG256I")(type "KiCad")(uri "${KIPRJMOD}/HispalisFPGA.pretty/LFE5U-45F-7BG256I.kicad_sym")(options "")(descr ""))
 )
